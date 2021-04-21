@@ -34,8 +34,6 @@ def _get_org_members_url():
     return requote_uri(f'{BASEURL}/orgs/{ORGANIZATION}/members')
 
 
-#def fetch
-
 
 def fetch_events(save_folder: str):
     os.makedirs(save_folder, exist_ok=False)
@@ -86,6 +84,7 @@ if __name__ == '__main__':
 
 
     _set_config()
+
 
 
     fetch_org(save_folder=org_folder_prefix)
