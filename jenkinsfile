@@ -1,4 +1,7 @@
 #!/usr/bin/env groovy
+
+MESSAGE = 'This is my message'
+
 pipeline {
     agent any
     stages {
@@ -10,6 +13,11 @@ pipeline {
         stage('pwd') {
             steps {
                 sh 'pwd'
+            }
+        }
+        stage('msg') {
+            steps {
+                sh 'echo $MESSAGE'
             }
         }
     }
