@@ -17,7 +17,7 @@ pipeline {
         }
         stage('msg') {
             steps {
-                sh 'echo $MESSAGE'
+                sh 'echo ${MESSAGE}'
             }
         }
     }
