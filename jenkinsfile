@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-MESSAGE = 'This is my message'
+def MESSAGE = 'This is my message'
 
 pipeline {
     agent any
