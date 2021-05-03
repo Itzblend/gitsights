@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def MESSAGE = 'This is my message'
+MESSAGE = "This is my message"
 
 pipeline {
     agent any
@@ -17,7 +17,7 @@ pipeline {
         }
         stage('msg') {
             steps {
-                sh 'echo ${MESSAGE}'
+                echo MESSAGE
             }
         }
     }
