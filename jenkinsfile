@@ -1,28 +1,16 @@
 #!/usr/bin/env groovy
 pipeline {
-  agent any
-
-  stages {
-    stage("LS") {
-      steps {
-        sh 'ls'
-      }
+    agent any
+    stages {
+        stage('ls') {
+            steps {
+                sh 'ls'
+            }
+        }
+        stage('pwd') {
+            steps {
+                sh 'pwd'
+            }
+        }
     }
-
-  stages {
-    stage("PWD") {
-      steps {
-        sh 'pwd'
-      }
-    }
-
-  stages {
-    stage("DF") {
-      steps {
-        sh 'df -h'
-      }
-    }
-    }
-  }
-}
 }
