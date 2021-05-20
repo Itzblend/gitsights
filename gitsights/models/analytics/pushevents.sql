@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+{{ config(materialized='view') }}
 
 -- pushevents view
  SELECT id,
@@ -20,8 +20,8 @@
         (payloadcommit ->> 'size')::INT          AS size,
         (payloadcommit ->> 'distinct_size')::INT AS distinct_size,
         commit ->> 'sha'                         AS sha,
-        fromjson(payloadcommit.commit.author.email)           AS author_email,
-        commit #>> '{{author, name}}'            AS author_name,
+        json_extract_path_text(commit, 'author', 'email') AS author_email,
+        json_extract_path_text(commit, 'author', 'name')  AS author_name,
         commit ->> 'message'                     AS message,
         commit ->> 'distinct'                    AS distinct,
         commit ->> 'url'                         AS commit_url

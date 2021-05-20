@@ -30,7 +30,9 @@ def get_config():
         'REPOSITORIES_T': f'{schema_t}.repositories_t',
         'REPOSITORIES_V': f'{schema}.repositories',
         'EVENTS_T': f'{schema_t}.events_t',
-        'EVENTS_V': f'{schema}.events'
+        'EVENTS_V': f'{schema}.events',
+        'COMMITS_T': f'{schema_t}.commits_t',
+        'CONTENTS_T': f'{schema_t}.contents_t'
     }
 
 

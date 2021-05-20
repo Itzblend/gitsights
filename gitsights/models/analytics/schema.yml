@@ -2,7 +2,15 @@ version: 2
 
 models:
     - name: pushevents
-      description: "Views based on Git data tables"
+      description: "Pushevents extracted from git events data"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - not_null
+
+    - name: prevents
+      description: "Pull requests extracted from git events data"
       columns:
           - name: id
             description: "The primary key for this table"
