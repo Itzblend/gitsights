@@ -6,5 +6,6 @@ CREATE TABLE IF NOT EXISTS {CONTENTS_T} (
     url     VARCHAR,
     content TEXT,
     encoding    VARCHAR,
+    repository  VARCHAR,
     PRIMARY KEY(sha, path)
 )

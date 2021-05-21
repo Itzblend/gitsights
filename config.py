@@ -40,7 +40,7 @@ def get_config():
         'EVENTS_T': f'{schema_t}.events_t',
         'EVENTS_V': f'{schema}.events',
         'COMMITS_T': f'{schema_t}.commits_t',
-        'CONTENTS_T': f'{schema_t}.contents_t'
+        'CONTENTS_T': f'{schema_t}.contents_t',
         'ISSUES_T': f'{schema_t}.issues_t',
         'ISSUES_V': f'{schema}.issues'
     }

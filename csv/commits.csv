@@ -1,0 +1,642 @@
+sha,commiter,commit_date,commit_message,comment_count,stats_total,stats_additions,stats_deletions,file_sha,filename,status,additions,deletions,changes,repository
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,4823f8d58e1e9c424b4db3d1c6a95d7e6997d85e,.env.example,added,1,0,1,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,fd51718144c7e2b354e735796c1d65f68cb18665,.gitignore,added,14,0,14,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,e6330e1a6c33ee1db2e3ffdb2f478e51df278761,.idea/workspace.xml,added,43,0,43,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,0dade59b0011855225657f278c6db1fe3df408fe,.lsp/sqlite.db,added,0,0,0,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,491ae29fa5702ef1119c10a9435c7db8c69d23ba,CHANGELOG.md,added,24,0,24,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,16e9bf6fe6bb1a57b3860944ab24e172ed411ab5,Dockerfile,added,19,0,19,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,231512650b9040b29bd966eba2b9499cbe8abc45,LICENSE,added,280,0,280,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,564c6f334c493792f0e460a92286d13091643f40,Makefile,added,5,0,5,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,ee603c884af494ad36ecdeda18cff71f16f6f1b1,README.md,added,15,0,15,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,17ad958013b7da7d5d0c3b7d6676ee03e8ce79bb,dotties-add-json.json,added,13,0,13,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,1609cce529debfc83853385ff704117d4d2ea8bd,project.clj,added,10,0,10,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,repos/.gitkeep,added,0,0,0,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,942feffbed97e3da824256cc4e0eb1ca280c9af9,src/dottiesbot/core.clj,added,28,0,28,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,c4f081d45111627010345420f67678ff5ec24df7,src/dottiesbot/dotties/filewriter.clj,added,12,0,12,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,2cdb18e6743119a1b277b104fb61a4544f9a8be3,src/dottiesbot/github/actions.clj,added,85,0,85,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,b4f7c766aac2b8cc0c4c88b89a8e83c4a852b321,src/dottiesbot/util.clj,added,16,0,16,dotties-bot
+6dadf0b271b85005a100c08cc981c70243c5039e,Matsuuu,2021-04-06 21:03:27.000000,Initial commit,0,572,572,0,09bcc22607b033ba8866c1a5c9aee92154f22eb1,test/dottiesbot/core_test.clj,added,7,0,7,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,a1dc4e4f9e36296c5b78dfb3fc90c6014406ead6,.env.example,modified,1,0,1,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,a074fac8f8b91a0269cc327ec4a64e6f6bf722c4,.gitignore,modified,1,0,1,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,5e3123ee4ad79f7fcd7ae866440dfc2f5351f1c2,Dockerfile-lambda,added,40,0,40,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,ec8eac5b679e6f4fa4b6c75b9a3912f3b695da5d,Makefile,modified,15,15,30,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,850b1e2881f7909ff90f6c060d43dfce05c014c6,TODO,removed,0,3,3,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,1289b092ea9437a3821b5bd85047a17e4f547908,bootstrap,modified,23,1,24,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,571fee0a99274131015ed495bc085df62ec5538a,initiator.sh,added,10,0,10,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,655d5c6b2f2d1c0d90ace073c9152a3885a9282e,out.yaml,removed,0,12,12,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,fc6096094756dd1bf5c6ff3e58b2fb4d82e5444a,project.clj,modified,1,2,3,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,69932c5588cdca0afff10d505202302d0bcda38b,samconfig.toml,removed,0,9,9,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,4c4fc68f5bd972b88280b3808e4021074c147e12,src/dottiesbot/core.clj,modified,3,8,11,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,e83bab287766ecb7e281118dbf98d889d8304946,src/dottiesbot/github/actions.clj,modified,8,6,14,dotties-bot
+72709803827325a8870d7008348511bc8e8c6623,Matsuuu,2021-04-26 15:43:39.000000,Rework approach to lambda,0,164,102,62,6b26c96dec7733942be3efd6a2f203ac1c38459c,src/dottiesbot/lambda_handler.clj,removed,0,6,6,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,2ccef139e43eeb76b8933d41473ad136dcf403c1,.gitignore,modified,2,0,2,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,491ae29fa5702ef1119c10a9435c7db8c69d23ba,CHANGELOG.md,removed,0,24,24,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,57e291d6d021756e027ccbad29376a452c52681d,META-INF/native-image/reflection-config.json,added,2,0,2,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,db40ad1d7843b686ad393733f3f8cbcd46496ab4,Makefile,modified,39,0,39,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,850b1e2881f7909ff90f6c060d43dfce05c014c6,TODO,added,3,0,3,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,c427f4a9bcb81c37a257d6fb5ea7b609e9b0e290,bootstrap,added,3,0,3,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,655d5c6b2f2d1c0d90ace073c9152a3885a9282e,out.yaml,added,12,0,12,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,b1d702ef99efa36c33f5eb21b6818bffac5412d9,project.clj,modified,4,2,6,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,69932c5588cdca0afff10d505202302d0bcda38b,samconfig.toml,added,9,0,9,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,2f11925adb20e05fd70c5528630735405a6e4287,src/dottiesbot/core.clj,modified,26,15,41,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,a65208bdfe822ead26e36a7f67511925ce9566d9,src/dottiesbot/github/actions.clj,modified,32,18,50,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,6b26c96dec7733942be3efd6a2f203ac1c38459c,src/dottiesbot/lambda_handler.clj,added,6,0,6,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,f369f1e58a62d5e25647623cfb6fd112256f4ae5,src/dottiesbot/util.clj,modified,4,4,8,dotties-bot
+e6a3ba2cbda48fd102aed2ed5d69c2ae5ff3e3cb,Matsuuu,2021-04-26 15:43:19.000000,Rework approach to lambda,0,219,156,63,a44e3444eb731315c48b567d7029163084188b3b,template.yml,added,14,0,14,dotties-bot
+f58865c21f6f6d09806f23d3a9be81da03ae955c,Matsuuu,2021-04-06 21:05:44.000000,Ignore local dev things,0,45,2,43,f1fd22d2d5dab6a0dc83b40c8e52901d72656310,.gitignore,modified,2,0,2,dotties-bot
+f58865c21f6f6d09806f23d3a9be81da03ae955c,Matsuuu,2021-04-06 21:05:44.000000,Ignore local dev things,0,45,2,43,e6330e1a6c33ee1db2e3ffdb2f478e51df278761,.idea/workspace.xml,removed,0,43,43,dotties-bot
+f58865c21f6f6d09806f23d3a9be81da03ae955c,Matsuuu,2021-04-06 21:05:44.000000,Ignore local dev things,0,45,2,43,0dade59b0011855225657f278c6db1fe3df408fe,.lsp/sqlite.db,removed,0,0,0,dotties-bot
+70e87d29cca79ed286f43886f5632198c64e5f06,Matsuuu,2021-04-26 15:43:50.000000,Better specifications for lambda task,0,8,6,2,65efcac8c62086031355efd5b33a2975822df0b2,Makefile,modified,6,2,8,dotties-bot
+e77fd7031b203c91cc586b5377476ca70842091a,Matsuuu,2021-04-26 15:43:50.000000,Update lambda function,0,14,12,2,e64b7b096edc29d0790e94def82a6273b6afef59,Makefile,modified,12,2,14,dotties-bot
+6f10bbf6f64da36940f3b5e0484f9bbfede67bbe,Matsuuu,2021-03-24 07:57:28.000000,Site update,0,105,95,10,1315d8f78f8939fcccd7db93db92d87bdce7f496,index.html,modified,31,10,41,website
+6f10bbf6f64da36940f3b5e0484f9bbfede67bbe,Matsuuu,2021-03-24 07:57:28.000000,Site update,0,105,95,10,2d76d6d2c7eba2349216210c0171db977e39ce43,logo_transparent.png,added,0,0,0,website
+6f10bbf6f64da36940f3b5e0484f9bbfede67bbe,Matsuuu,2021-03-24 07:57:28.000000,Site update,0,105,95,10,fb44a8a1f8f2890132b9a2b7980f288a4608c8e6,src/css/main.css,added,63,0,63,website
+6f10bbf6f64da36940f3b5e0484f9bbfede67bbe,Matsuuu,2021-03-24 07:57:28.000000,Site update,0,105,95,10,8b137891791fe96927ad78e64b0aad7bded08bdc,src/js/main.js,added,1,0,1,website
+723d3093daae401849301bebd43ae80defee2a65,Itzblend,2021-03-26 11:49:27.000000,Bang cuties on the daily but Data science is my side hustle,0,1,1,0,fb63cd7c766d82de86d7841bfd11f924b2db8db9,index.html,modified,1,0,1,website
+64ef1dfbb47bc25308bde5a297bae67d212006a0,Matsuuu,2021-03-27 00:38:19.000000,Feat(app): Navbar links and dropdown. Create template views,0,178,155,23,e92a5307c08308497bea6b8e79400c9181879f1e,app/src/components/nav-bar.js,modified,105,23,128,dotties
+64ef1dfbb47bc25308bde5a297bae67d212006a0,Matsuuu,2021-03-27 00:38:19.000000,Feat(app): Navbar links and dropdown. Create template views,0,178,155,23,328ccba27525c4e0918e94622a2fdd016ff461fd,app/src/routes.js,modified,10,0,10,dotties
+64ef1dfbb47bc25308bde5a297bae67d212006a0,Matsuuu,2021-03-27 00:38:19.000000,Feat(app): Navbar links and dropdown. Create template views,0,178,155,23,1ffa1b7a85b6d1d528428762413e1d4ffb12f505,app/src/views/gallery.js,added,20,0,20,dotties
+64ef1dfbb47bc25308bde5a297bae67d212006a0,Matsuuu,2021-03-27 00:38:19.000000,Feat(app): Navbar links and dropdown. Create template views,0,178,155,23,aeec36e353ca8a06af709c6b82416fad5cd00018,app/src/views/settings.js,added,20,0,20,dotties
+085453b5828a1c47b522241213feff396e866ccf,Matsuuu,2021-03-26 09:23:33.000000,Feat(app): Init routing,0,113,17,96,cae79a79edc517126e2a02c96e52fb8cb2b01fa3,app/src/dotties-app.js,modified,3,44,47,dotties
+085453b5828a1c47b522241213feff396e866ccf,Matsuuu,2021-03-26 09:23:33.000000,Feat(app): Init routing,0,113,17,96,da1ee2a425fcd12b2adeb5544824836eb98babf4,app/src/info-view.js,removed,0,49,49,dotties
+085453b5828a1c47b522241213feff396e866ccf,Matsuuu,2021-03-26 09:23:33.000000,Feat(app): Init routing,0,113,17,96,811bde2cbf8926ce87abe1132f268694a1ec887a,app/src/routes.js,modified,3,3,6,dotties
+085453b5828a1c47b522241213feff396e866ccf,Matsuuu,2021-03-26 09:23:33.000000,Feat(app): Init routing,0,113,17,96,fa237de99af7c746b369a3b0318500bccdb162fd,app/src/views/profile.js,added,11,0,11,dotties
+5f11bc8b7d2d53a70e0374ec2149975fbffae097,GitHub,2021-03-19 09:41:15.000000,Update index.html,0,2,1,1,aaff6e99f9f0cd952f6392c6bf3e015e6cc8a006,index.html,modified,1,1,2,website
+085c3bf9901e4eeff4fe957a0b3f2bc79b45186a,Sam Lane,2021-03-19 09:00:32.000000,moo,0,10,10,0,05c5941af2fe0a0fddd5d08f1489ff435aca7f02,index.html,added,10,0,10,website
+96e4b6f950b3e5e10f9cc55f4599d0400ec77263,Sam Lane,2021-03-19 09:01:23.000000,Create CNAME,0,1,1,0,896f49d7ef98850ec2dc7a3aa7aae90d08364b96,CNAME,added,1,0,1,website
+625b358fd2a514af41d1a70f540b5d5731ce7d95,Matsuuu,2021-03-24 08:03:58.000000,Responsive design is my passion,0,9,8,1,eb2204ede1fa3d331d3225f1cc31487e23b1ce64,src/css/main.css,modified,8,1,9,website
+88c7d21f5935427c4b4ee32eed46821ca1dfb8af,Itzblend,2021-03-29 14:08:51.000000,db on main docker compose file,0,30,27,3,1499fb9b331cde73804978bd21f12a50adedf8d8,README.md,modified,10,0,10,dotties
+88c7d21f5935427c4b4ee32eed46821ca1dfb8af,Itzblend,2021-03-29 14:08:51.000000,db on main docker compose file,0,30,27,3,1d9ab8d37a03ca823169a227843ec5ca7b039436,docker-compose.yml,modified,13,0,13,dotties
+88c7d21f5935427c4b4ee32eed46821ca1dfb8af,Itzblend,2021-03-29 14:08:51.000000,db on main docker compose file,0,30,27,3,c900a2c9c782b777a8b7253d395d7c69d9afe081,init_dev.sh,renamed,4,3,7,dotties
+88c7d21f5935427c4b4ee32eed46821ca1dfb8af,Itzblend,2021-03-29 14:08:51.000000,db on main docker compose file,0,30,27,3,3557d79c82e71b82fff45a1399f4df09c7e53af0,requirements.txt,renamed,0,0,0,dotties
+33f8b12e78c1d119cff1ca1af05db23f6dd2f1c0,GitHub,2021-03-26 08:01:12.000000,Initial commit,0,2,2,0,7eec35abced3da7e09a0492ac8c22f1458daeebe,README.md,added,2,0,2,dotties
+227947f47605ff6c55a068cdb904c1c6e723a981,Matsuuu,2021-05-10 19:09:16.000000,Image upload to S3 and retrieval from it in frontend,0,222,173,49,8ce7cc6bf96f1ecb3ed3321ab364c5d106c31b5b,.env.example,modified,8,3,11,dotties
+227947f47605ff6c55a068cdb904c1c6e723a981,Matsuuu,2021-05-10 19:09:16.000000,Image upload to S3 and retrieval from it in frontend,0,222,173,49,ca3283a8eac05dbf14bd0851906c89c4149730ff,api/go.mod,modified,4,0,4,dotties
+227947f47605ff6c55a068cdb904c1c6e723a981,Matsuuu,2021-05-10 19:09:16.000000,Image upload to S3 and retrieval from it in frontend,0,222,173,49,04b98d77de0b4728fddb873f1c207204e1bcdd6f,api/go.sum,modified,26,0,26,dotties
+227947f47605ff6c55a068cdb904c1c6e723a981,Matsuuu,2021-05-10 19:09:16.000000,Image upload to S3 and retrieval from it in frontend,0,222,173,49,eebbeb420e1937a9a4bb4a9e8e65951669f6080e,api/pkg/db/repository.go,modified,1,0,1,dotties
+227947f47605ff6c55a068cdb904c1c6e723a981,Matsuuu,2021-05-10 19:09:16.000000,Image upload to S3 and retrieval from it in frontend,0,222,173,49,dd8d1af3040525506354e6443fd9e9c334cc15fa,api/pkg/dottiesaws/dottiesaws.go,added,53,0,53,dotties
+227947f47605ff6c55a068cdb904c1c6e723a981,Matsuuu,2021-05-10 19:09:16.000000,Image upload to S3 and retrieval from it in frontend,0,222,173,49,5cd091da14a6915ab696f2693d89183fee7d1e9a,api/pkg/repo/repo.go,modified,80,45,125,dotties
+227947f47605ff6c55a068cdb904c1c6e723a981,Matsuuu,2021-05-10 19:09:16.000000,Image upload to S3 and retrieval from it in frontend,0,222,173,49,742d552477c00507f419e2100613f270fefd39d5,app/src/views/gallery-entry.js,modified,1,1,2,dotties
+e3844fc6617ffc84c93e7c6a4e30426ade3b6869,Matsuuu,2021-04-05 08:01:53.000000,Update database docker container to composefile only,0,37,17,20,e89c6530411ba9aa37862e58658a676acbc7a741,.env.example,modified,4,0,4,dotties
+e3844fc6617ffc84c93e7c6a4e30426ade3b6869,Matsuuu,2021-04-05 08:01:53.000000,Update database docker container to composefile only,0,37,17,20,bc5c0e01db463c9ea29dd9de5c7e0d363ebde585,docker-compose.yml,modified,13,20,33,dotties
+2b43c60e48df634ffba8ed4c097e6f5fdaa5814c,Sam Lane,2021-03-28 13:19:38.000000,adding example .env,0,3,3,0,051508e0bd7db0278ea97e357c3615e635bd6c8f,.env.example,added,3,0,3,dotties
+7cc1cdf8ffa349012605f461bb0fcc0661c5d2b4,Matsuuu,2021-03-30 10:02:09.000000,Feat: Log out functionality,0,86,54,32,08de018e8b9b7aef13eae8f0732271f63c7c9267,api/main.go,modified,16,14,30,dotties
+7cc1cdf8ffa349012605f461bb0fcc0661c5d2b4,Matsuuu,2021-03-30 10:02:09.000000,Feat: Log out functionality,0,86,54,32,0d57aa6a943e42b50ceb07f1ef2c979e95b79782,api/pkg/auth/auth.go,modified,9,4,13,dotties
+7cc1cdf8ffa349012605f461bb0fcc0661c5d2b4,Matsuuu,2021-03-30 10:02:09.000000,Feat: Log out functionality,0,86,54,32,646a5d699af36acfa40ced676c50af61501b02ff,api/pkg/github/oauth.go,modified,3,0,3,dotties
+7cc1cdf8ffa349012605f461bb0fcc0661c5d2b4,Matsuuu,2021-03-30 10:02:09.000000,Feat: Log out functionality,0,86,54,32,22d5fc5d57a5c5f4da384a9eac27b41dfc8a6d44,app/src/components/nav-bar.js,modified,2,1,3,dotties
+7cc1cdf8ffa349012605f461bb0fcc0661c5d2b4,Matsuuu,2021-03-30 10:02:09.000000,Feat: Log out functionality,0,86,54,32,f87789fb067a344928ce92bd4a85b9a5608b96c2,app/src/dotties-app.js,modified,2,12,14,dotties
+7cc1cdf8ffa349012605f461bb0fcc0661c5d2b4,Matsuuu,2021-03-30 10:02:09.000000,Feat: Log out functionality,0,86,54,32,6827cc1f09ee1173a8c1772359abf20fefe06afa,app/src/services/auth-service.js,modified,17,1,18,dotties
+7cc1cdf8ffa349012605f461bb0fcc0661c5d2b4,Matsuuu,2021-03-30 10:02:09.000000,Feat: Log out functionality,0,86,54,32,0e8dc6acea5f5e6c1c928a03f4bb2cdaa5afb52f,app/src/util/api-util.js,added,5,0,5,dotties
+3f7eca3c1d6ac97fee1c36355044c9e4fe2f0c1d,Matsuuu,2021-04-29 08:01:37.000000,Cleaning up,0,25,0,25,f7d69897246445d0e829429fabf878091c16b88b,app/Dockerfile,modified,0,8,8,dotties
+3f7eca3c1d6ac97fee1c36355044c9e4fe2f0c1d,Matsuuu,2021-04-29 08:01:37.000000,Cleaning up,0,25,0,25,05c009c14a1a83a75e07aefbcb17dddd02d298af,docker-compose.yml,modified,0,17,17,dotties
+5a75193b395e8c31c3fc2210d6b3b8497f32d6da,GitHub,2021-04-10 14:54:11.000000,Merge branch 'develop' into feat/user-crud-operations,0,60,41,19,e89c6530411ba9aa37862e58658a676acbc7a741,.env.example,modified,4,0,4,dotties
+5a75193b395e8c31c3fc2210d6b3b8497f32d6da,GitHub,2021-04-10 14:54:11.000000,Merge branch 'develop' into feat/user-crud-operations,0,60,41,19,6939764e576638da1a6dfc28084f9692b99eee0b,app/index.html,modified,7,0,7,dotties
+5a75193b395e8c31c3fc2210d6b3b8497f32d6da,GitHub,2021-04-10 14:54:11.000000,Merge branch 'develop' into feat/user-crud-operations,0,60,41,19,f76a5352ae33ff0f1078f9cb5da72c7e51f73ff1,app/package.json,modified,1,2,3,dotties
+5a75193b395e8c31c3fc2210d6b3b8497f32d6da,GitHub,2021-04-10 14:54:11.000000,Merge branch 'develop' into feat/user-crud-operations,0,60,41,19,9885190d909ceb0e1e4c7ca61df7581212e0d44d,app/src/components/dotfile-viewer.js,modified,19,10,29,dotties
+5a75193b395e8c31c3fc2210d6b3b8497f32d6da,GitHub,2021-04-10 14:54:11.000000,Merge branch 'develop' into feat/user-crud-operations,0,60,41,19,a61a20b32182507eda51b4e9ce91c979dadaf788,app/src/routes.js,modified,1,1,2,dotties
+5a75193b395e8c31c3fc2210d6b3b8497f32d6da,GitHub,2021-04-10 14:54:11.000000,Merge branch 'develop' into feat/user-crud-operations,0,60,41,19,5d8ebeb33e4d4a4124dad00e59e98fdafe489f8b,app/src/views/gallery-entry.js,modified,2,2,4,dotties
+5a75193b395e8c31c3fc2210d6b3b8497f32d6da,GitHub,2021-04-10 14:54:11.000000,Merge branch 'develop' into feat/user-crud-operations,0,60,41,19,b82c031a1b270723534dc238a96cb4210af9e5b8,app/src/views/gallery.js,modified,1,1,2,dotties
+5a75193b395e8c31c3fc2210d6b3b8497f32d6da,GitHub,2021-04-10 14:54:11.000000,Merge branch 'develop' into feat/user-crud-operations,0,60,41,19,ec7c5abdea075b9630a2b1f1311b9bc4bfc7d44a,docker-compose.yml,modified,6,3,9,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,5c6ba4f9d2d7a8e124c175b5d428420dcfe4342b,api/main.go,modified,10,4,14,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,62c0b1ffd005560fa548462022b38219d2e7a36f,api/pkg/user/user.go,modified,0,2,2,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,c68db6a6f968306a5d2072b7047b45430aeae909,app/index.html,modified,1,1,2,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,a4d6ddf7bf138ba6128cf40884dbd68a7158d4ef,app/src/components/loading-animation.js,modified,1,0,1,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,c07fa083a0eb17df649b79f19dd9d1cebea62a8c,app/src/dotties-app.js,modified,0,4,4,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,6757fc54f7c52486961b9d9d6d222edaa4137459,app/src/main.js,added,8,0,8,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,d62f688a9765595af080b60fea87662baf7fda43,app/src/router.js,modified,13,11,24,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,5d4501fc4365d8cb67d382339d632558ecd9ddb9,app/src/services/auth-service.js,modified,1,1,2,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,58985d0d9c12d7d7bb1fa5957cfe1e226a4d9ebe,app/src/services/user-service.js,modified,3,1,4,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,a3a6810cac3e8ce76c8ccc0c60fe6be6e5ad4617,app/src/views/profile.js,modified,50,25,75,dotties
+7351d9c484caf82d4b054e394934fe1b9cc3c34a,Matsuuu,2021-04-05 09:18:21.000000,Re-structured verifying and user profile pages,0,161,98,63,52dd28f853cb8a115bc8d34649ac1830e5eeeeae,docker-compose.yml,modified,11,14,25,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,51fb415246d8e763e290802435739f0f609a65d8,api/go.mod,modified,1,0,1,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,958546c54ee130b291e114b356881402c2347f9c,api/go.sum,modified,1,0,1,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,13a3ad0701d37af1859c24c0504a2f5cbab4b41e,api/main.go,modified,9,6,15,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,25f5657b98f32b38c87e76b10acfed655ddd651a,api/pkg/auth/auth.go,modified,13,9,22,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,bb92d1bab12d9e8b0c19330f4c1f000a7d7cdc49,api/pkg/db/authuser.go,modified,14,9,23,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,ac1e6e2e3d55fc7ec536aed81f73b973987aa1df,api/pkg/db/db.go,modified,39,38,77,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,af2f63c4b47342582a0730f61de5e175c1fd5076,api/pkg/db/repository.go,modified,10,5,15,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,3a49c63e3548a2ce98b4397b34357eb92223bd95,api/pkg/db/vote.go,added,1,0,1,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,3d1721fa87559698c058db97ceba525f693265f4,api/pkg/github/oauth.go,modified,29,5,34,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,030c5871721d3f7ffb84791997b3de0095b73869,api/pkg/user/user.go,added,47,0,47,dotties
+da049ca0aef961621745d0a3700fb3adfb821582,Sam Lane,2021-04-03 17:31:19.000000,meh,0,240,168,72,58fc1457ab27457a4679b3554fb325da18bbdce5,docker-compose.yml,modified,4,0,4,dotties
+982159af682c1fd646fb90a4c72a233cb2533ffe,Matsuuu,2021-03-31 16:07:22.000000,Fix composefile and create PoC db connection,0,434,433,1,9acaca428b05e1aa0b9531c39006f53bbd2c1c98,api/go.mod,modified,5,0,5,dotties
+982159af682c1fd646fb90a4c72a233cb2533ffe,Matsuuu,2021-03-31 16:07:22.000000,Fix composefile and create PoC db connection,0,434,433,1,e6610307c0993c45282103bb16c7fad726407bad,api/go.sum,modified,377,0,377,dotties
+982159af682c1fd646fb90a4c72a233cb2533ffe,Matsuuu,2021-03-31 16:07:22.000000,Fix composefile and create PoC db connection,0,434,433,1,f29d541559e4cf99c176712db6bf845bdcb09a66,api/main.go,modified,2,0,2,dotties
+982159af682c1fd646fb90a4c72a233cb2533ffe,Matsuuu,2021-03-31 16:07:22.000000,Fix composefile and create PoC db connection,0,434,433,1,4281c336fbad39007e2369421cb0bfb877a2922a,api/pkg/db/db.go,added,46,0,46,dotties
+982159af682c1fd646fb90a4c72a233cb2533ffe,Matsuuu,2021-03-31 16:07:22.000000,Fix composefile and create PoC db connection,0,434,433,1,e61182989c5a28471bc40f4f1f3117fb2e93f699,docker-compose.yml,modified,2,0,2,dotties
+982159af682c1fd646fb90a4c72a233cb2533ffe,Matsuuu,2021-03-31 16:07:22.000000,Fix composefile and create PoC db connection,0,434,433,1,99040d0abfb1fe00854ae1a7aae5562461d41bcf,init_dev.sh,modified,1,1,2,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,1d03d871fbc37bb620cd16c37da573beb664916f,db/local_db/Dockerfile,added,6,0,6,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,8204cf839cae1445126a89f37e86e998ef7bda9a,db/local_db/migration/Dockerfile,added,16,0,16,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,4f3952ed28cb4337684a6ae5e1679d79260117c2,db/local_db/migration/entrypoint.sh,added,10,0,10,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,86c261b16c8e1084e951a404c2bac581cb35ef5c,db/local_db/migration/scripts/config.py,renamed,4,4,8,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,3389ee14bf088a8e6f99be4d54536fd8aa6ca2f5,db/local_db/migration/scripts/create_db.sql,added,5,0,5,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,9b0688be4e8808459c707e201347131cf02a7035,db/local_db/migration/scripts/db.py,renamed,1,1,2,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,a1cb426d30caf2cec231b99114e56b5f40710dd2,db/local_db/migration/scripts/sql/users_t.sql,renamed,0,0,0,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,73a6f14bc1f1ceb90fa6dc1a594de81c2183fc01,db/local_db/migration/scripts/utils.py,renamed,0,0,0,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,2fb81c71feb023d82ff772844c67339cac275bf2,db/local_db/scripts/create_db.sql,removed,0,3,3,dotties
+ba9cee6f93b9539989a7d35eea14035c08ad4ea1,Lauri Huhta,2021-03-30 19:57:20.000000,imma kill a man,0,74,60,14,9c41511e478fdbeff12759c6a56bf702c9fb6dd6,docker-compose.yml,modified,18,6,24,dotties
+31d39938884eff3fd6d7cf808567fe9f05e7f71c,Matsuuu,2021-03-28 17:48:57.000000,Jk. now it's fixd,0,13,8,5,ef65fd2b62634ec3068fa20a4492845f2611eaf2,app/Dockerfile,modified,7,5,12,dotties
+31d39938884eff3fd6d7cf808567fe9f05e7f71c,Matsuuu,2021-03-28 17:48:57.000000,Jk. now it's fixd,0,13,8,5,fff518fcafccdd376187d0826fef56892f741cfe,docker-compose.yml,modified,1,0,1,dotties
+4b5dc9bac95a5e6cffbc66a62fcbf6f17cee2f27,Matsuuu,2021-03-28 17:24:14.000000,Fix(app): Fix frontend docker configuration,0,23,14,9,2e5de2d66f8ef1b3476a0d7c8c4f5f8cb7fe2238,app/Dockerfile,modified,8,5,13,dotties
+4b5dc9bac95a5e6cffbc66a62fcbf6f17cee2f27,Matsuuu,2021-03-28 17:24:14.000000,Fix(app): Fix frontend docker configuration,0,23,14,9,fa6bce2bcdd4119a705cd93db306827c83c30e06,app/index.html,modified,5,3,8,dotties
+4b5dc9bac95a5e6cffbc66a62fcbf6f17cee2f27,Matsuuu,2021-03-28 17:24:14.000000,Fix(app): Fix frontend docker configuration,0,23,14,9,83b3d4d1e36962a3f7f3b4b5d7280b80470ca026,docker-compose.yml,modified,1,1,2,dotties
+f46d758c4be30771c293279cee5ff67ec107b90e,Sam Lane,2021-03-27 14:55:17.000000,GitHub 0auth now working,0,489,488,1,e28d3da836fbe346be784111900a2f5ff478ba8a,.gitignore,modified,1,0,1,dotties
+f46d758c4be30771c293279cee5ff67ec107b90e,Sam Lane,2021-03-27 14:55:17.000000,GitHub 0auth now working,0,489,488,1,4f35f58c0764f0442ebee60ce58a5545d230632e,api/go.mod,modified,6,0,6,dotties
+f46d758c4be30771c293279cee5ff67ec107b90e,Sam Lane,2021-03-27 14:55:17.000000,GitHub 0auth now working,0,489,488,1,11913dbaa4be26867b09ddd3271d6ca7f0b6b76d,api/go.sum,added,368,0,368,dotties
+f46d758c4be30771c293279cee5ff67ec107b90e,Sam Lane,2021-03-27 14:55:17.000000,GitHub 0auth now working,0,489,488,1,002e68b7ac27aeed5a58fa97590e989afeaf2517,api/main.go,modified,3,1,4,dotties
+f46d758c4be30771c293279cee5ff67ec107b90e,Sam Lane,2021-03-27 14:55:17.000000,GitHub 0auth now working,0,489,488,1,6057d79df38ec2dfb416ac2ae712cca84571bf0a,api/pkg/github/api.go,added,30,0,30,dotties
+f46d758c4be30771c293279cee5ff67ec107b90e,Sam Lane,2021-03-27 14:55:17.000000,GitHub 0auth now working,0,489,488,1,9b1b12f1272eee4009064e2441d5d6ad4626ca32,api/pkg/github/oauth.go,added,75,0,75,dotties
+f46d758c4be30771c293279cee5ff67ec107b90e,Sam Lane,2021-03-27 14:55:17.000000,GitHub 0auth now working,0,489,488,1,e385e22e024032fa2d31cc0e4c26becbde35f7b5,app/index.html,modified,3,0,3,dotties
+f46d758c4be30771c293279cee5ff67ec107b90e,Sam Lane,2021-03-27 14:55:17.000000,GitHub 0auth now working,0,489,488,1,38099380a2cbdd6c4876b2a29cc932dd48c57299,docker-compose.yml,modified,2,0,2,dotties
+695a886d722eda31dc74004aab425178ca8a4932,Sam Lane,2021-03-26 19:43:00.000000,containerize development,0,49,46,3,3c5f636df558f0cace92bcacab1445c690112cec,api/Dockerfile,added,13,0,13,dotties
+695a886d722eda31dc74004aab425178ca8a4932,Sam Lane,2021-03-26 19:43:00.000000,containerize development,0,49,46,3,8663a34be996af312d875b08e43f32c58f33004b,api/gin-bin,added,0,0,0,dotties
+695a886d722eda31dc74004aab425178ca8a4932,Sam Lane,2021-03-26 19:43:00.000000,containerize development,0,49,46,3,4d145fe863be2c3e36791380a18aa94b35fced8d,api/main.go,modified,2,2,4,dotties
+695a886d722eda31dc74004aab425178ca8a4932,Sam Lane,2021-03-26 19:43:00.000000,containerize development,0,49,46,3,0988eccb4a7066b3da5aa62526e4c6dcc32d7a8a,app/Dockerfile,added,11,0,11,dotties
+695a886d722eda31dc74004aab425178ca8a4932,Sam Lane,2021-03-26 19:43:00.000000,containerize development,0,49,46,3,ed05799c6cac34b2fa3643449a1b59043c0a5a9c,app/index.html,modified,1,1,2,dotties
+695a886d722eda31dc74004aab425178ca8a4932,Sam Lane,2021-03-26 19:43:00.000000,containerize development,0,49,46,3,fc817b43e608c6ea73044719a7383ef9f891db69,docker-compose.yml,added,19,0,19,dotties
+69cfaeb3f50d5926e3bb737e1bd9b19e55ad839e,Sam Lane,2021-04-01 18:11:18.000000,update .gitignore,0,1,1,0,fab31ff46c2c9d0912cf8951e3076bd51da453c4,.gitignore,modified,1,0,1,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,153825b65dbe438a68249e13a14b6666273fa7e2,.gitignore,modified,4,0,4,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,0c8189d5bc4346681b912cc5dd8cb85ba05adca0,db/README.md,added,6,0,6,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,821233e8a769eaf11c4ca632dfbf3871add0f85a,db/docker-compose-db.yml,added,16,0,16,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,dad33a45459058345131a42f8ed5a1e8817c9b88,db/dotties/.gitignore,added,4,0,4,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,b0e9022a48e7be4f202591103422cd11ad05d435,db/dotties/README.md,added,15,0,15,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/analysis/.gitkeep,added,0,0,0,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/data/.gitkeep,added,0,0,0,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,a1b2d72c25697da3ba46630beaaf2c842a095904,db/dotties/dbt_project.yml,added,37,0,37,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/macros/.gitkeep,added,0,0,0,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,fd4fbcc4916d7e173b120cbd9f8f468cf201af13,db/dotties/models/report/schema.yml,added,16,0,16,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,f31a12d94873de0e532ea43f450d605c9cffe35e,db/dotties/models/report/users.sql,added,27,0,27,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/snapshots/.gitkeep,added,0,0,0,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/tests/.gitkeep,added,0,0,0,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,3b734394345adaf7cfd7b09d12382b576bc5b2b1,db/init_db_dev.sh,added,13,0,13,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,7c1278f104ba52181501d83016f5c615fde4f948,db/local_db/scripts/config.py,added,29,0,29,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,2fb81c71feb023d82ff772844c67339cac275bf2,db/local_db/scripts/create_db.sql,added,3,0,3,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,a2076137a828436feaa5896b2fe3b8a2840e42e9,db/local_db/scripts/db.py,added,38,0,38,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,a1cb426d30caf2cec231b99114e56b5f40710dd2,db/local_db/scripts/sql/users_t.sql,added,6,0,6,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,73a6f14bc1f1ceb90fa6dc1a594de81c2183fc01,db/local_db/scripts/utils.py,added,32,0,32,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,3557d79c82e71b82fff45a1399f4df09c7e53af0,db/requirements.txt,added,1,0,1,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,d78e6782622e6af02f16511fa583d3d2aa958adc,db/scripts/config.py,added,29,0,29,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,9b0688be4e8808459c707e201347131cf02a7035,db/scripts/db.py,added,38,0,38,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,a1cb426d30caf2cec231b99114e56b5f40710dd2,db/scripts/sql/users_t.sql,added,6,0,6,dotties
+31bab54b69a55142e529997f3855f5a12eab3f0a,Itzblend,2021-03-29 13:50:36.000000,local db for my boys,0,352,352,0,73a6f14bc1f1ceb90fa6dc1a594de81c2183fc01,db/scripts/utils.py,added,32,0,32,dotties
+6eff229cddf212b3194500983f74751e63c11fe7,Sam Lane,2021-03-27 11:20:59.000000,.gitignore maaaaan,0,1,1,0,a8be188e7c5e0c0ec4be1807ea0a0c072996750f,.gitignore,added,1,0,1,dotties
+2846261f8c5d01f63995494131d16fc1eafa1a2e,Matsuuu,2021-03-26 23:37:40.000000,Fix(app): Fix docker runtime issues and update readme,0,35,33,2,630d25660a6e280347aed711ba3e0cc10ba1a328,api/gin-bin,modified,0,0,0,dotties
+2846261f8c5d01f63995494131d16fc1eafa1a2e,Matsuuu,2021-03-26 23:37:40.000000,Fix(app): Fix docker runtime issues and update readme,0,35,33,2,289de98ae47f4828610dab1ae130b41649ce3387,app/Dockerfile,modified,1,1,2,dotties
+2846261f8c5d01f63995494131d16fc1eafa1a2e,Matsuuu,2021-03-26 23:37:40.000000,Fix(app): Fix docker runtime issues and update readme,0,35,33,2,ec8c583324989fe8c759ecc09b2b8b4d81b20748,app/README.md,modified,31,1,32,dotties
+2846261f8c5d01f63995494131d16fc1eafa1a2e,Matsuuu,2021-03-26 23:37:40.000000,Fix(app): Fix docker runtime issues and update readme,0,35,33,2,925532439a28bb1ca1f3b3318d7f6f51e0a2145f,app/package.json,modified,1,0,1,dotties
+311e6f2acf7cebeea384c8bae69b22a66dfa4532,Matsuuu,2021-03-26 12:38:19.000000,Chore(app): Clean up readme,0,13,0,13,4f552d696f4130bf3f7d73ff6e9d204ba77117df,app/README.md,modified,0,13,13,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,3c3629e647f5ddf82548912e337bea9826b434af,app/.gitignore,added,1,0,1,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,45e7a2d3f242822274d41e4c02f111d2eb830afc,app/README.md,added,27,0,27,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,bd17e566f9ff38302fac98f0181c19f17757ea77,app/index.html,added,21,0,21,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,b7a06a563e557b66b5a2e9202c47c7cf34c1f46a,app/package-lock.json,added,13227,0,13227,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,1132dedb93653c78652053c330e6d01a8e20699c,app/package.json,added,35,0,35,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,c2954fa67b3f848c6bef9817fc489a534424b074,app/rollup.config.js,added,25,0,25,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,e4ff7e03938fad219840d60ee9f862331ab3aa23,app/src/dotties-app.js,added,88,0,88,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,da1ee2a425fcd12b2adeb5544824836eb98babf4,app/src/info-view.js,added,49,0,49,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,c107f023c3304c3a014da0dbe565f68cb599683c,app/src/router.js,added,14,0,14,dotties
+724627432ec71769f850677aa6bf773adec098eb,Matsuuu,2021-03-26 08:42:24.000000,Add app mockup,0,13500,13500,0,2ebcb22be43afb680155abcdca07a53450fd348b,app/src/routes.js,added,13,0,13,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,6f453d0e33b457564c2f43543e54ddfe1156326c,app/index.html,modified,7,0,7,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,8af00d2f5cd396bad81ea292e2d9d2c779902e1a,app/jsconfig.json,added,10,0,10,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,e4bfec5db8d00933864204a3a9718346894c39f9,app/package-lock.json,modified,13197,13156,26353,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,3f63a1a06c5e2fa2e0c183f9aef528ca3cc6fcce,app/package.json,modified,4,3,7,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,bee1b727a20a9dd024150d6bf915f1a9cdfb0a55,app/src/components/nav-bar.js,added,172,0,172,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,4b4293828d10821f2a4414241c29a01d523cfe40,app/src/dotties-app.js,modified,0,1,1,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,61cc07f22ce7e2786ca22d860a00b00d0326731a,app/src/router.js,modified,1,0,1,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,e059d037b12de51003959f02dd9f727c5602c338,app/src/util/twind-util.js,added,9,0,9,dotties
+262809ed3122cb71559417b181437148037efb7c,Matsuuu,2021-03-26 10:19:38.000000,Feat(app): Plugged in twind,0,26575,13412,13163,3b41d74015691b913c91ff3a67ddd88f24413cc3,app/src/views/profile.js,modified,12,3,15,dotties
+44c723e429d3efa1a6648bd0a7acc564d035c2a5,Matsuuu,2021-05-10 16:20:30.000000,Yeah that font was way too big,0,2,1,1,6ba84f70052d49b6ffb18f0dc3e084540f2aa8a9,app/index.html,modified,1,1,2,dotties
+db17646425d24682992a8d5d7cfa58c2613d2ddc,Matsuuu,2021-04-29 13:24:41.000000,Sorting out some styling issues,0,112,96,16,db30f4c35f9cdc92dd3ce614dfd568156d1084d4,app/index.html,modified,1,0,1,dotties
+db17646425d24682992a8d5d7cfa58c2613d2ddc,Matsuuu,2021-04-29 13:24:41.000000,Sorting out some styling issues,0,112,96,16,d246981dade3460c49802e2b6051d226761d085d,app/src/views/main-page-hero.js,modified,1,1,2,dotties
+db17646425d24682992a8d5d7cfa58c2613d2ddc,Matsuuu,2021-04-29 13:24:41.000000,Sorting out some styling issues,0,112,96,16,017bbfec93d6eb9d71e207f47519a687248823c0,app/src/views/repository-add/phase-four.js,modified,88,7,95,dotties
+db17646425d24682992a8d5d7cfa58c2613d2ddc,Matsuuu,2021-04-29 13:24:41.000000,Sorting out some styling issues,0,112,96,16,24778ed44de3c83b4c86ed686e97646ffff144ac,app/src/views/repository-add/phase-three.js,modified,6,8,14,dotties
+6930653966401bc2a5ead102b07d2d3b8f1b6b59,Matsuuu,2021-04-29 09:47:52.000000,Smoother transitions and file tree folder select disabled,0,25,17,8,7e2ebcc947646521ef78166951b673eb53c9dd53,app/index.html,modified,5,0,5,dotties
+6930653966401bc2a5ead102b07d2d3b8f1b6b59,Matsuuu,2021-04-29 09:47:52.000000,Smoother transitions and file tree folder select disabled,0,25,17,8,5f4aaad223d5c8a6b765f1dffe094aa138c64cb2,app/src/components/file-tree.js,modified,4,4,8,dotties
+6930653966401bc2a5ead102b07d2d3b8f1b6b59,Matsuuu,2021-04-29 09:47:52.000000,Smoother transitions and file tree folder select disabled,0,25,17,8,67f50b17b3ca30d9476d2bc9d2b5eeccd12b60b6,app/src/router.js,modified,2,2,4,dotties
+6930653966401bc2a5ead102b07d2d3b8f1b6b59,Matsuuu,2021-04-29 09:47:52.000000,Smoother transitions and file tree folder select disabled,0,25,17,8,186c525a4b7c3cd97a4f1cef136af133e9dda139,app/src/views/repository-add/phase-one.js,modified,6,2,8,dotties
+95babda8147e03b38d6e6c33cff767392544b85b,Matsuuu,2021-04-05 12:00:54.000000,"Remove shiki, implement highlight.js",0,48,31,17,716b866887fab6fb905e2bed1d31355d660d7c96,app/index.html,modified,7,1,8,dotties
+95babda8147e03b38d6e6c33cff767392544b85b,Matsuuu,2021-04-05 12:00:54.000000,"Remove shiki, implement highlight.js",0,48,31,17,f76a5352ae33ff0f1078f9cb5da72c7e51f73ff1,app/package.json,modified,1,2,3,dotties
+95babda8147e03b38d6e6c33cff767392544b85b,Matsuuu,2021-04-05 12:00:54.000000,"Remove shiki, implement highlight.js",0,48,31,17,9885190d909ceb0e1e4c7ca61df7581212e0d44d,app/src/components/dotfile-viewer.js,modified,19,10,29,dotties
+95babda8147e03b38d6e6c33cff767392544b85b,Matsuuu,2021-04-05 12:00:54.000000,"Remove shiki, implement highlight.js",0,48,31,17,a61a20b32182507eda51b4e9ce91c979dadaf788,app/src/routes.js,modified,1,1,2,dotties
+95babda8147e03b38d6e6c33cff767392544b85b,Matsuuu,2021-04-05 12:00:54.000000,"Remove shiki, implement highlight.js",0,48,31,17,5d8ebeb33e4d4a4124dad00e59e98fdafe489f8b,app/src/views/gallery-entry.js,modified,2,2,4,dotties
+95babda8147e03b38d6e6c33cff767392544b85b,Matsuuu,2021-04-05 12:00:54.000000,"Remove shiki, implement highlight.js",0,48,31,17,b82c031a1b270723534dc238a96cb4210af9e5b8,app/src/views/gallery.js,modified,1,1,2,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,7b228d18af578fe2cd4e199bcc69e2ac8b266baf,app/index.html,modified,1,1,2,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,9e2f88e4955b35416cbca6cdce0b6035cbded342,app/package-lock.json,modified,7,7,14,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,906e6328784b61bbf1b9dd4df730867c088d6d16,app/package.json,modified,1,1,2,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,6816dc5b530611e135a0c3d68f307cc48c542dd9,app/src/components/dotfile-viewer.js,modified,19,14,33,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,8f56fcd2177f36633b6c40e5fadb4ce213249daf,app/src/components/loading-animation.js,added,83,0,83,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,a58df2fb02ad8e9006260b8a605622c4bc9c5a1a,app/src/components/nav-bar.js,modified,11,6,17,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,6ddf1c2d005c3c7efce5dbb0b7bc8ab19235af85,app/src/routes.js,modified,8,0,8,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,6cee27f53b6c3338b417a7e0e290054b9f485eb8,app/src/views/gallery-entry.js,added,65,0,65,dotties
+e3820a06ddf8f5ae64ac1304236cde26bb9b1001,Matsuuu,2021-03-30 11:13:48.000000,Ui Fixups and enhancements all around,0,249,201,48,bf5316384ea7b4db50a1ac28b344546ff1d1619a,app/src/views/gallery.js,modified,6,19,25,dotties
+8ee5a409c83f485cb939ffb975bac4bfd937e96a,Matsuuu,2021-03-29 12:28:23.000000,"Feat: PoC of pulling dotfiles with dotties.json
+
+- Add shiki for syntax highlighting
+- Add preliminary checks for some file types",0,248,228,20,4e150180d03274aa8b2a7f7f93aed94aeeea0bef,app/index.html,modified,1,0,1,dotties
+8ee5a409c83f485cb939ffb975bac4bfd937e96a,Matsuuu,2021-03-29 12:28:23.000000,"Feat: PoC of pulling dotfiles with dotties.json
+
+- Add shiki for syntax highlighting
+- Add preliminary checks for some file types",0,248,228,20,71234f69a68a34115a437ec41fcb9c621a47ad59,app/package-lock.json,modified,75,17,92,dotties
+8ee5a409c83f485cb939ffb975bac4bfd937e96a,Matsuuu,2021-03-29 12:28:23.000000,"Feat: PoC of pulling dotfiles with dotties.json
+
+- Add shiki for syntax highlighting
+- Add preliminary checks for some file types",0,248,228,20,6bffb0b85dd4b7263f0dab701edd4ff0cb88a661,app/package.json,modified,2,1,3,dotties
+8ee5a409c83f485cb939ffb975bac4bfd937e96a,Matsuuu,2021-03-29 12:28:23.000000,"Feat: PoC of pulling dotfiles with dotties.json
+
+- Add shiki for syntax highlighting
+- Add preliminary checks for some file types",0,248,228,20,771cab0cf37bfb222a58872a51f514da219fe743,app/src/components/dotfile-viewer.js,added,88,0,88,dotties
+8ee5a409c83f485cb939ffb975bac4bfd937e96a,Matsuuu,2021-03-29 12:28:23.000000,"Feat: PoC of pulling dotfiles with dotties.json
+
+- Add shiki for syntax highlighting
+- Add preliminary checks for some file types",0,248,228,20,e0aab34cc273e554b67e429cd31a1770259538de,app/src/services/repository-service.js,added,24,0,24,dotties
+8ee5a409c83f485cb939ffb975bac4bfd937e96a,Matsuuu,2021-03-29 12:28:23.000000,"Feat: PoC of pulling dotfiles with dotties.json
+
+- Add shiki for syntax highlighting
+- Add preliminary checks for some file types",0,248,228,20,d30842465d1ea8e2ed5e2c2c5e6acfe8afd793e5,app/src/views/gallery.js,modified,38,2,40,dotties
+690ead28c2329c47257d15785b69231b84959f95,Matsuuu,2021-03-28 20:16:50.000000,Fuck twind,0,492,218,274,2414ff2802fa28af07af0ca9f67d467bc7ad681c,app/index.html,modified,1,0,1,dotties
+690ead28c2329c47257d15785b69231b84959f95,Matsuuu,2021-03-28 20:16:50.000000,Fuck twind,0,492,218,274,d5f4b83141407340dbedc6f9b6421e5643d58aea,app/package.json,modified,1,2,3,dotties
+690ead28c2329c47257d15785b69231b84959f95,Matsuuu,2021-03-28 20:16:50.000000,Fuck twind,0,492,218,274,4b3dcf9dfb08040eb517db73ca1d5da4dcaecfab,app/src/components/nav-bar.js,modified,106,162,268,dotties
+690ead28c2329c47257d15785b69231b84959f95,Matsuuu,2021-03-28 20:16:50.000000,Fuck twind,0,492,218,274,71ed4e6a3b43c17a07353009f516bc22398fe38e,app/src/dotties-app.js,modified,0,6,6,dotties
+690ead28c2329c47257d15785b69231b84959f95,Matsuuu,2021-03-28 20:16:50.000000,Fuck twind,0,492,218,274,e059d037b12de51003959f02dd9f727c5602c338,app/src/util/twind-util.js,removed,0,9,9,dotties
+690ead28c2329c47257d15785b69231b84959f95,Matsuuu,2021-03-28 20:16:50.000000,Fuck twind,0,492,218,274,b25893a0b6a91c0d0ac9f8c1b9776f60dc8d5a2d,app/src/views/main-page-hero.js,modified,110,95,205,dotties
+3cb8eddc779eda03329407b2c5b1145f6b961fba,Matsuuu,2021-03-28 19:14:58.000000,Add login button,0,79,70,9,182a1a3f734fc1b7d712c68b04c29bad9460d6cd,app/assets/GitHub-Mark-64px.png,added,0,0,0,dotties
+3cb8eddc779eda03329407b2c5b1145f6b961fba,Matsuuu,2021-03-28 19:14:58.000000,Add login button,0,79,70,9,ed05799c6cac34b2fa3643449a1b59043c0a5a9c,app/index.html,modified,0,5,5,dotties
+3cb8eddc779eda03329407b2c5b1145f6b961fba,Matsuuu,2021-03-28 19:14:58.000000,Add login button,0,79,70,9,2dc5e94ab001be05f8d20bc76c8fe78131134b0e,app/src/components/github-signin.js,added,44,0,44,dotties
+3cb8eddc779eda03329407b2c5b1145f6b961fba,Matsuuu,2021-03-28 19:14:58.000000,Add login button,0,79,70,9,5ad3b6b33cdd6cb3d794e79f5a1424fbd36b8404,app/src/components/nav-bar.js,modified,3,0,3,dotties
+3cb8eddc779eda03329407b2c5b1145f6b961fba,Matsuuu,2021-03-28 19:14:58.000000,Add login button,0,79,70,9,d4687ae8d1632d288d699bba9f6283812e917e2b,app/src/views/profile.js,modified,23,4,27,dotties
+95fab91cfb089bf8ccab919f0ff212e8943aac24,Matsuuu,2021-03-26 12:37:33.000000,Feat(app): Add hero content to main page,0,149,128,21,2d76d6d2c7eba2349216210c0171db977e39ce43,app/assets/logo_transparent.png,added,0,0,0,dotties
+95fab91cfb089bf8ccab919f0ff212e8943aac24,Matsuuu,2021-03-26 12:37:33.000000,Feat(app): Add hero content to main page,0,149,128,21,8b1ce644ad2a7a7c8784a40594cc53053ac5336a,app/index.html,modified,4,2,6,dotties
+95fab91cfb089bf8ccab919f0ff212e8943aac24,Matsuuu,2021-03-26 12:37:33.000000,Feat(app): Add hero content to main page,0,149,128,21,4d45d357cf8170713246f736b72e267b02c373b9,app/src/components/nav-bar.js,modified,5,5,10,dotties
+95fab91cfb089bf8ccab919f0ff212e8943aac24,Matsuuu,2021-03-26 12:37:33.000000,Feat(app): Add hero content to main page,0,149,128,21,24989d8a037d37d9c0337910f3cb3aaea6f2679b,app/src/dotties-app.js,modified,3,14,17,dotties
+95fab91cfb089bf8ccab919f0ff212e8943aac24,Matsuuu,2021-03-26 12:37:33.000000,Feat(app): Add hero content to main page,0,149,128,21,418552084d39e092316123791cb46347ee209bf4,app/src/views/main-page-hero.js,added,116,0,116,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,af2756a584e98d2fb6e998dd7f905fbcf88ba1c5,app/package-lock.json,modified,8,81,89,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,0e039b62b5c89f6367a3d6d291f58e95aa0969d8,app/package.json,modified,1,1,2,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,baf18447f5e7959996ecf7754bfe1458703fb3f9,app/src/components/dotties-file-generator.js,modified,62,31,93,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,fc9f2c5527339947c3ed56f9bfcc123c39229d8f,app/src/components/file-tree.js,modified,7,7,14,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,16456daf5fd7ba4999280d0ebf32ccce745dadf0,app/src/main.js,modified,1,1,2,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,1bd336bf7a7ee9146a8a8c80b6a147b28e547983,app/src/routes.js,modified,15,1,16,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,909eeebe6e1a8dd42d3ddb0b1a3c1242c516348e,app/src/services/auth-service.js,modified,2,1,3,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,b03a59b501aa30ab19863fbf3ca390620ef3745d,app/src/services/repository-service.js,modified,11,0,11,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,8fb1dfb753aa487c2bd95402e7c6a5b1af05770b,app/src/views/repository-add.js,modified,55,11,66,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,60b010e37074c496c0ce4557117f2addaebc935d,app/src/views/repository-add/phase-one.js,added,88,0,88,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,5d7d450e32cfd61e513d8036e3abc64ffe5a8c1a,app/src/views/repository-add/phase-three.js,added,67,0,67,dotties
+e92ec5b45bab2996cea559256f7a54f4a1589675,Matsuuu,2021-04-26 18:19:17.000000,Separated views for repository add steps,0,511,377,134,fa17e31dc80f5c12712a0bf4e15f6463500cd547,app/src/views/repository-add/phase-two.js,added,60,0,60,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,d80202df5126be8bb3f52948350ebbe5955c4576,api/go.mod,modified,1,0,1,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,f1cc58fa744afb58676776b74324a67f584d4330,api/go.sum,modified,2,0,2,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,98c394e2e053352d32426687bca6206b097a8301,api/main.go,modified,26,3,29,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,5e35fd0a22f37ae05d5a3812c21f71ed48a6fd31,api/pkg/auth/auth.go,modified,41,2,43,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,604e0b2af8a8e7449306c9abcd913efee2bfb682,api/pkg/github/oauth.go,modified,1,1,2,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,6e429fd865eebcd9bb89ee7ef8e39fb4c2ab80fb,app/assets/user_icon_placeholder.svg,added,1,0,1,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,7d4cb591766dfcc3710f66cea9cde1112095d8b5,app/package-lock.json,modified,278,107,385,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,7a0aee641dacda8340b85092f19c2c79fd552db3,app/package.json,modified,1,0,1,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,0016f1cac2ae8e86e4591359a93a0e456881c4b5,app/src/components/nav-bar.js,modified,38,34,72,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,ffb01c00029c793ca32469fe63f7efc3eef9d9cb,app/src/dotties-app.js,modified,16,0,16,dotties
+4e6581baddf9b9559b7b46e1dda52184bc47fc39,Matsuuu,2021-03-29 09:50:43.000000,"Feat: Login flow and middleware support
+
+- Added login flow for frontend
+- Added middleware support to backend
+- Added cors rules for backend
+- Added user data storage for frontend",0,583,436,147,2c7a2c8a2e83ddb3a8c3079ff64e38194955a76c,app/src/util/cookie-util.js,added,31,0,31,dotties
+3bab8bb3225c5f2e22ab82dfc280f21f3474ccb0,Matsuuu,2021-04-29 08:39:35.000000,View structure for repository add,0,225,174,51,6adfe4eaf55342ae92017b4b510459ec3d52c930,app/src/components/dotties-file-generator.js,modified,1,33,34,dotties
+3bab8bb3225c5f2e22ab82dfc280f21f3474ccb0,Matsuuu,2021-04-29 08:39:35.000000,View structure for repository add,0,225,174,51,920b4e272d6e89b003a78c9a3efb946bdfa6a76d,app/src/routes.js,modified,5,0,5,dotties
+3bab8bb3225c5f2e22ab82dfc280f21f3474ccb0,Matsuuu,2021-04-29 08:39:35.000000,View structure for repository add,0,225,174,51,6dbe09d8e3a47494b75dbad57ced7a29b22e9761,app/src/views/repository-add.js,modified,61,6,67,dotties
+3bab8bb3225c5f2e22ab82dfc280f21f3474ccb0,Matsuuu,2021-04-29 08:39:35.000000,View structure for repository add,0,225,174,51,056350684e9e2e779cbaa2a3849d0d4281ede5fc,app/src/views/repository-add/phase-four.js,added,47,0,47,dotties
+3bab8bb3225c5f2e22ab82dfc280f21f3474ccb0,Matsuuu,2021-04-29 08:39:35.000000,View structure for repository add,0,225,174,51,335033666f76045fedd5cc15bd5497d7d63009a5,app/src/views/repository-add/phase-one.js,modified,3,1,4,dotties
+3bab8bb3225c5f2e22ab82dfc280f21f3474ccb0,Matsuuu,2021-04-29 08:39:35.000000,View structure for repository add,0,225,174,51,dda495bf59f361fdadbd77fab8dbf0323a9a6f57,app/src/views/repository-add/phase-three.js,modified,56,6,62,dotties
+3bab8bb3225c5f2e22ab82dfc280f21f3474ccb0,Matsuuu,2021-04-29 08:39:35.000000,View structure for repository add,0,225,174,51,7b5bb19538f4993174dc71be6588ea2bf71b3d36,app/src/views/repository-add/phase-two.js,modified,1,5,6,dotties
+e2672be7def60981a4c22415379846ccc5aeec6a,Matsuuu,2021-04-03 16:36:04.000000,"Dotties file generator created and started work on file-tree component
+
+- Added Github API calls to get file tree
+- Parsed file tree to folders",0,208,202,6,a2435899a6f0b225152592d09f915214b6d53d04,app/src/components/dotties-file-generator.js,added,56,0,56,dotties
+e2672be7def60981a4c22415379846ccc5aeec6a,Matsuuu,2021-04-03 16:36:04.000000,"Dotties file generator created and started work on file-tree component
+
+- Added Github API calls to get file tree
+- Parsed file tree to folders",0,208,202,6,a8b75fed26f22e65813ebaafb775989cd9a861cc,app/src/components/file-tree.js,added,63,0,63,dotties
+e2672be7def60981a4c22415379846ccc5aeec6a,Matsuuu,2021-04-03 16:36:04.000000,"Dotties file generator created and started work on file-tree component
+
+- Added Github API calls to get file tree
+- Parsed file tree to folders",0,208,202,6,83b9bf44ad407825e5973c97ed9b7471c18e1aff,app/src/components/nav-bar.js,modified,3,1,4,dotties
+e2672be7def60981a4c22415379846ccc5aeec6a,Matsuuu,2021-04-03 16:36:04.000000,"Dotties file generator created and started work on file-tree component
+
+- Added Github API calls to get file tree
+- Parsed file tree to folders",0,208,202,6,49d570dca4267c602f728e3890cf723b9276f2f6,app/src/routes.js,modified,6,1,7,dotties
+e2672be7def60981a4c22415379846ccc5aeec6a,Matsuuu,2021-04-03 16:36:04.000000,"Dotties file generator created and started work on file-tree component
+
+- Added Github API calls to get file tree
+- Parsed file tree to folders",0,208,202,6,71a34aad9d9e93bbaa22fe59244654bc96e345f0,app/src/services/repository-service.js,modified,20,1,21,dotties
+e2672be7def60981a4c22415379846ccc5aeec6a,Matsuuu,2021-04-03 16:36:04.000000,"Dotties file generator created and started work on file-tree component
+
+- Added Github API calls to get file tree
+- Parsed file tree to folders",0,208,202,6,f7fef9879781fc496e4880e1cc8081ba418aa3b7,app/src/views/gallery-entry.js,modified,1,1,2,dotties
+e2672be7def60981a4c22415379846ccc5aeec6a,Matsuuu,2021-04-03 16:36:04.000000,"Dotties file generator created and started work on file-tree component
+
+- Added Github API calls to get file tree
+- Parsed file tree to folders",0,208,202,6,7aa868842177cd2d3c333e3c87dc35c5a86c1900,app/src/views/profile.js,modified,19,2,21,dotties
+e2672be7def60981a4c22415379846ccc5aeec6a,Matsuuu,2021-04-03 16:36:04.000000,"Dotties file generator created and started work on file-tree component
+
+- Added Github API calls to get file tree
+- Parsed file tree to folders",0,208,202,6,19a1445c75c68d3495de54f4d5b494e765c009a3,app/src/views/repository-add.js,added,34,0,34,dotties
+627d0efc9254a160851586d76b469f5655023caf,Matsuuu,2021-04-01 14:27:09.000000,Feat: Data flow base for Profile page,0,189,154,35,b2cd9a6b7e3c352e969099e9d1ff9b01780bb8c5,app/src/components/nav-bar.js,modified,22,21,43,dotties
+627d0efc9254a160851586d76b469f5655023caf,Matsuuu,2021-04-01 14:27:09.000000,Feat: Data flow base for Profile page,0,189,154,35,1d078c5222db0d93180e77300679b8ce68266c12,app/src/routes.js,modified,8,1,9,dotties
+627d0efc9254a160851586d76b469f5655023caf,Matsuuu,2021-04-01 14:27:09.000000,Feat: Data flow base for Profile page,0,189,154,35,e3f80b4fb6311abebad10dc5780953013d033625,app/src/services/github-user-service.js,added,5,0,5,dotties
+627d0efc9254a160851586d76b469f5655023caf,Matsuuu,2021-04-01 14:27:09.000000,Feat: Data flow base for Profile page,0,189,154,35,a04167f6473b0276587b4c0dcf0286a601eb74f5,app/src/services/user-service.js,added,32,0,32,dotties
+627d0efc9254a160851586d76b469f5655023caf,Matsuuu,2021-04-01 14:27:09.000000,Feat: Data flow base for Profile page,0,189,154,35,05f0f7fddeb832c82b5d24069581463ccf23d81b,app/src/util/api-util.js,modified,1,1,2,dotties
+627d0efc9254a160851586d76b469f5655023caf,Matsuuu,2021-04-01 14:27:09.000000,Feat: Data flow base for Profile page,0,189,154,35,31d3920f1d691b9e601036db8c2304aaa310be25,app/src/views/gallery.js,modified,1,1,2,dotties
+627d0efc9254a160851586d76b469f5655023caf,Matsuuu,2021-04-01 14:27:09.000000,Feat: Data flow base for Profile page,0,189,154,35,5292cb199823e6d6d5845139cd4a35787aff479e,app/src/views/profile.js,modified,85,11,96,dotties
+a8a569be4157090ba6fa0cd8f1de0a9ba52a3b78,Matsuuu,2021-03-30 05:55:35.000000,Fix: Handle verify API call correctly on case where no cookies found,0,9,6,3,4309eff8bf02e0e21dc356bae16c2ae597857f1e,api/pkg/auth/auth.go,modified,3,1,4,dotties
+a8a569be4157090ba6fa0cd8f1de0a9ba52a3b78,Matsuuu,2021-03-30 05:55:35.000000,Fix: Handle verify API call correctly on case where no cookies found,0,9,6,3,ca3ef965531bd05153811948bb8106b1b694ed64,app/src/dotties-app.js,modified,3,2,5,dotties
+2ae4e6169fefebf6fe8428b111d35300e053fe91,Matsuuu,2021-04-04 12:26:25.000000,dotties.json generation. Needs UX help,0,272,227,45,170c0655252e9cd563fbff958687746d5909bc25,app/src/components/dotties-file-generator.js,modified,150,20,170,dotties
+2ae4e6169fefebf6fe8428b111d35300e053fe91,Matsuuu,2021-04-04 12:26:25.000000,dotties.json generation. Needs UX help,0,272,227,45,5c4030d577cf9a1706b12e8ab13cac346ead3bdf,app/src/components/file-tree.js,modified,63,14,77,dotties
+2ae4e6169fefebf6fe8428b111d35300e053fe91,Matsuuu,2021-04-04 12:26:25.000000,dotties.json generation. Needs UX help,0,272,227,45,abebf7a4f05929300354b61e3e90c759bc283d85,app/src/services/repository-service.js,modified,13,9,22,dotties
+2ae4e6169fefebf6fe8428b111d35300e053fe91,Matsuuu,2021-04-04 12:26:25.000000,dotties.json generation. Needs UX help,0,272,227,45,c2665f34aaeb9c4afae479e865ae481743a8a0fd,app/src/views/repository-add.js,modified,1,2,3,dotties
+37027c4f6275072c85d92acfb9d2b4fd22fffbb7,Matsuuu,2021-04-03 23:32:42.000000,Parse tree structure to front-end components,0,103,86,17,2bad203f64fdaef648c3120f9dde481e945b42a9,app/src/components/dotties-file-generator.js,modified,1,1,2,dotties
+37027c4f6275072c85d92acfb9d2b4fd22fffbb7,Matsuuu,2021-04-03 23:32:42.000000,Parse tree structure to front-end components,0,103,86,17,615c723c4c34d6541b736be8a87af2fa5f70ace3,app/src/components/file-tree.js,modified,83,16,99,dotties
+37027c4f6275072c85d92acfb9d2b4fd22fffbb7,Matsuuu,2021-04-03 23:32:42.000000,Parse tree structure to front-end components,0,103,86,17,4cfd6766047dab1d9ed5a14666dab86245c9ed00,app/src/icons/file-tree-icons.js,added,2,0,2,dotties
+0008a8b30ce4cdc8dfcb8cc59c2761ed488c0e88,Matsuuu,2021-05-04 10:49:38.000000,Gallery view work,0,105,97,8,e0d1abe1fdc5254f83d58d3e58e2dcc40ae990e7,app/src/components/gallery-item.js,added,59,0,59,dotties
+0008a8b30ce4cdc8dfcb8cc59c2761ed488c0e88,Matsuuu,2021-05-04 10:49:38.000000,Gallery view work,0,105,97,8,98423681c0c6ed88660a2914fb965960f9fcd5de,app/src/services/repository-service.js,modified,6,3,9,dotties
+0008a8b30ce4cdc8dfcb8cc59c2761ed488c0e88,Matsuuu,2021-05-04 10:49:38.000000,Gallery view work,0,105,97,8,11f4c2dc76c93862b691a9ef791a05526a0c41e0,app/src/views/gallery.js,modified,32,5,37,dotties
+49c77574a4fea36b9ef3cd0d39a5383968c2b0f1,Matsuuu,2021-04-03 14:51:24.000000,User profile page data and styles,0,117,103,14,7622c95346134ed84d3ffd377f04f1424a87f09e,app/src/components/icon.js,added,36,0,36,dotties
+49c77574a4fea36b9ef3cd0d39a5383968c2b0f1,Matsuuu,2021-04-03 14:51:24.000000,User profile page data and styles,0,117,103,14,955c1dd84e69e678971fa3ebf6912d168f836b30,app/src/icons/social.js,added,4,0,4,dotties
+49c77574a4fea36b9ef3cd0d39a5383968c2b0f1,Matsuuu,2021-04-03 14:51:24.000000,User profile page data and styles,0,117,103,14,0a7fbf526303ed45b8ed65704ffd7e734ebf851f,app/src/views/profile.js,modified,63,14,77,dotties
+0d8e46320fe70a8aed40f9b2e2d9311ca2be72f4,Matsuuu,2021-04-05 10:14:42.000000,User API rewrite,0,137,115,22,060ce3e61d0c0cc85f20b8b96865e3a523726dd9,api/main.go,modified,1,2,3,dotties
+0d8e46320fe70a8aed40f9b2e2d9311ca2be72f4,Matsuuu,2021-04-05 10:14:42.000000,User API rewrite,0,137,115,22,b68a09c65a30e94a87576ffcb5c0634dfc82424f,api/pkg/user/user.go,modified,55,16,71,dotties
+0d8e46320fe70a8aed40f9b2e2d9311ca2be72f4,Matsuuu,2021-04-05 10:14:42.000000,User API rewrite,0,137,115,22,b983ed119a22d77a95db82316d8b1df71709bbb1,app/src/components/nav-bar.js,modified,4,3,7,dotties
+0d8e46320fe70a8aed40f9b2e2d9311ca2be72f4,Matsuuu,2021-04-05 10:14:42.000000,User API rewrite,0,137,115,22,3db32bfb3528d8098bde4a2a202ed1abbbfe6c65,app/src/views/settings.js,modified,55,1,56,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,7b228d18af578fe2cd4e199bcc69e2ac8b266baf,app/index.html,modified,1,1,2,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,9e2f88e4955b35416cbca6cdce0b6035cbded342,app/package-lock.json,modified,7,7,14,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,906e6328784b61bbf1b9dd4df730867c088d6d16,app/package.json,modified,1,1,2,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,6816dc5b530611e135a0c3d68f307cc48c542dd9,app/src/components/dotfile-viewer.js,modified,19,14,33,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,8f56fcd2177f36633b6c40e5fadb4ce213249daf,app/src/components/loading-animation.js,added,83,0,83,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,aa4c9f853358e41940fef5f5271439af6cc39dd2,app/src/components/nav-bar.js,modified,11,6,17,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,6ddf1c2d005c3c7efce5dbb0b7bc8ab19235af85,app/src/routes.js,modified,8,0,8,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,6cee27f53b6c3338b417a7e0e290054b9f485eb8,app/src/views/gallery-entry.js,added,65,0,65,dotties
+8a63e67a8589c379b78b400353567c3adde2be6f,GitHub,2021-03-31 15:00:53.000000,"Merge pull request #8 from Shy-Boys-Club/ui-fixups
+
+Ui Fixups and enhancements all around",0,249,201,48,bf5316384ea7b4db50a1ac28b344546ff1d1619a,app/src/views/gallery.js,modified,6,19,25,dotties
+c2b7c8a1dbb09327307050fb4b5b328e41a6f7e4,Matsuuu,2021-04-03 15:00:09.000000,Sign in page styling,0,39,30,9,773b278f83bf2d8a135f7b4eb4a63e84029e1a21,app/src/components/github-signin.js,modified,12,7,19,dotties
+c2b7c8a1dbb09327307050fb4b5b328e41a6f7e4,Matsuuu,2021-04-03 15:00:09.000000,Sign in page styling,0,39,30,9,8ccaa6ce9963e3161b6e78f47387406a4528cbde,app/src/views/profile.js,modified,18,2,20,dotties
+44570d80be11a11b7e047cc66257bb3f17a5eaf8,Matsuuu,2021-05-04 08:28:05.000000,(App): Data flow to gallery entry,0,62,41,21,b85ba8d4a5ea0f845bfc2a3f495fe9c6b8f65079,app/src/services/repository-service.js,modified,26,18,44,dotties
+44570d80be11a11b7e047cc66257bb3f17a5eaf8,Matsuuu,2021-05-04 08:28:05.000000,(App): Data flow to gallery entry,0,62,41,21,3c54b37106eb6d4a82ec62f1147947bbd47a3467,app/src/views/gallery-entry.js,modified,15,3,18,dotties
+370b0d0e2ba5c79d2fcc231e523efd31d092db30,Matsuuu,2021-04-05 10:31:51.000000,Delete functionality,0,51,43,8,6950240d46271c4cb352cfe297b0714c3eb946b3,api/pkg/user/user.go,modified,8,0,8,dotties
+370b0d0e2ba5c79d2fcc231e523efd31d092db30,Matsuuu,2021-04-05 10:31:51.000000,Delete functionality,0,51,43,8,ffbf3af3937828e1ca9ef094fc5364d841eefe0a,app/src/services/user-service.js,modified,7,2,9,dotties
+370b0d0e2ba5c79d2fcc231e523efd31d092db30,Matsuuu,2021-04-05 10:31:51.000000,Delete functionality,0,51,43,8,9803dfceb19ac8cdfb8ac4e335ec9d99ebd810d8,app/src/views/settings.js,modified,28,6,34,dotties
+d4d7a965a7c80232c8ccdce73e24b5572ad71ae7,Matsuuu,2021-04-05 09:21:46.000000,Add not-found message when searching for user and not found,0,19,17,2,80a168fef9b6a09d2b64722c0793bc77f89be1f1,app/src/views/profile.js,modified,17,2,19,dotties
+48739f53b66dc422df6ce4f928d7a455e6c8b4fe,Matsuuu,2021-05-10 16:49:50.000000,Error handling for repository add,0,54,36,18,ca20dadbf86df326c7e7625eb30a8fbbb113e85f,api/pkg/db/authuser.go,modified,1,1,2,dotties
+48739f53b66dc422df6ce4f928d7a455e6c8b4fe,Matsuuu,2021-05-10 16:49:50.000000,Error handling for repository add,0,54,36,18,7da0c4dc97fee615d6ae368b5be9810b26806e9e,api/pkg/repo/repo.go,modified,15,14,29,dotties
+48739f53b66dc422df6ce4f928d7a455e6c8b4fe,Matsuuu,2021-05-10 16:49:50.000000,Error handling for repository add,0,54,36,18,3eecd75f44a340a695932855ee679f68df19df00,app/src/services/repository-service.js,modified,6,2,8,dotties
+48739f53b66dc422df6ce4f928d7a455e6c8b4fe,Matsuuu,2021-05-10 16:49:50.000000,Error handling for repository add,0,54,36,18,c6223d1de9d83979552e377fe7005f1986a401ff,app/src/views/repository-add/phase-four.js,modified,13,0,13,dotties
+48739f53b66dc422df6ce4f928d7a455e6c8b4fe,Matsuuu,2021-05-10 16:49:50.000000,Error handling for repository add,0,54,36,18,ea2591260eb7f9e25311151783d5c0a147e15a73,app/src/views/repository-add/phase-three.js,modified,1,1,2,dotties
+b018e2d491c74bd74133b184c4e7bf2aabe8644d,Matsuuu,2021-05-04 11:02:44.000000,Brief ui improvements,0,2,2,0,43352aec4b8a5d4d41ed62387b836f911c024158,app/src/views/repository-add/phase-four.js,modified,1,0,1,dotties
+b018e2d491c74bd74133b184c4e7bf2aabe8644d,Matsuuu,2021-05-04 11:02:44.000000,Brief ui improvements,0,2,2,0,65c40fed421194e82459b6f29a2606ddd7f820e1,app/src/views/repository-add/phase-three.js,modified,1,0,1,dotties
+e51877938929db9796b63eac0c5fe6bddd751d4f,Matsuuu,2021-05-04 08:21:35.000000,(Api) Separate db calls to functions. InsertOrUpdate repository,0,71,66,5,9e0c8eec09ee2cbe4bb6ee83d13aae527863bf7f,api/pkg/repo/repo.go,modified,52,4,56,dotties
+e51877938929db9796b63eac0c5fe6bddd751d4f,Matsuuu,2021-05-04 08:21:35.000000,(Api) Separate db calls to functions. InsertOrUpdate repository,0,71,66,5,b68f5a7d58581f8a11f8bf6dc5ea4355c661baae,app/src/services/repository-service.js,modified,6,0,6,dotties
+e51877938929db9796b63eac0c5fe6bddd751d4f,Matsuuu,2021-05-04 08:21:35.000000,(Api) Separate db calls to functions. InsertOrUpdate repository,0,71,66,5,959f7ff688e1b7644ee573a4be67e6a90b2757ad,app/src/views/repository-add/phase-four.js,modified,8,1,9,dotties
+4039f08c548b25d4548b7e46a537981b38a1ea43,Matsuuu,2021-05-03 07:33:32.000000,Fix repository submission errors and plug front end,0,39,35,4,126107153234790b80fba1061a22ff162df3a0cf,api/pkg/db/authuser.go,modified,1,1,2,dotties
+4039f08c548b25d4548b7e46a537981b38a1ea43,Matsuuu,2021-05-03 07:33:32.000000,Fix repository submission errors and plug front end,0,39,35,4,c4802b6f4ccd2367d53b651a9a9f69d366252d46,api/pkg/repo/repo.go,modified,7,2,9,dotties
+4039f08c548b25d4548b7e46a537981b38a1ea43,Matsuuu,2021-05-03 07:33:32.000000,Fix repository submission errors and plug front end,0,39,35,4,0ae3913623f33ec3e5a8d8a1c86db61865da9805,app/src/services/repository-service.js,modified,17,0,17,dotties
+4039f08c548b25d4548b7e46a537981b38a1ea43,Matsuuu,2021-05-03 07:33:32.000000,Fix repository submission errors and plug front end,0,39,35,4,4aa06eb80426e818701b4f6d05642d35bf143354,app/src/views/repository-add/phase-four.js,modified,10,1,11,dotties
+279b451034b9d247b58f655b3f4d97b0a6ea7e85,Matsuuu,2021-03-26 23:42:42.000000,Feat(app): Initialize authservice,0,1,1,0,8337712ea57f00733b5709b27efb3de797e95575,app/src/services/auth-service.js,added,1,0,1,dotties
+e18fb5b54fde182b60008a51ebbc0b3da88c4fd8,Matsuuu,2021-04-05 09:46:37.000000,Change user query to use GET params,0,26,16,10,e92d89ecb63a725771ede4919794fb44fdb767f3,api/main.go,modified,3,4,7,dotties
+e18fb5b54fde182b60008a51ebbc0b3da88c4fd8,Matsuuu,2021-04-05 09:46:37.000000,Change user query to use GET params,0,26,16,10,e7369530dc6dbab66ed50fa7697d5f8c25b2f3a2,api/pkg/user/user.go,modified,12,5,17,dotties
+e18fb5b54fde182b60008a51ebbc0b3da88c4fd8,Matsuuu,2021-04-05 09:46:37.000000,Change user query to use GET params,0,26,16,10,ad4b035d0774ae23e2e1d7b0d42d2893ac966851,app/src/services/user-service.js,modified,1,1,2,dotties
+860b48235a9466ab981c947de54ec9e79ec92f52,Matsuuu,2021-04-05 09:30:29.000000,Return 404 if user not found,0,17,14,3,0fb3bd467cf51fa3d76b4a54c8307a1047f72d8c,api/pkg/user/user.go,modified,2,2,4,dotties
+860b48235a9466ab981c947de54ec9e79ec92f52,Matsuuu,2021-04-05 09:30:29.000000,Return 404 if user not found,0,17,14,3,78d80c05b45c53c8e3470fd0b9b5877861d7800e,app/src/services/user-service.js,modified,12,1,13,dotties
+de448a63ef1f0514cebfad74208f2f5700161757,Matsuuu,2021-03-31 19:57:38.000000,Feat(api): Implement ORM,0,99,77,22,f0850c65b274fc0d54b791d4e0c3fb6e924ab672,api/go.mod,modified,2,2,4,dotties
+de448a63ef1f0514cebfad74208f2f5700161757,Matsuuu,2021-03-31 19:57:38.000000,Feat(api): Implement ORM,0,99,77,22,4939e09f21070de28acdaf02a6504ef3fb2f832a,api/main.go,modified,17,3,20,dotties
+de448a63ef1f0514cebfad74208f2f5700161757,Matsuuu,2021-03-31 19:57:38.000000,Feat(api): Implement ORM,0,99,77,22,38a89be2ba67f0f1c5ac07bdf303b88d9e169be7,api/pkg/db/authuser.go,added,10,0,10,dotties
+de448a63ef1f0514cebfad74208f2f5700161757,Matsuuu,2021-03-31 19:57:38.000000,Feat(api): Implement ORM,0,99,77,22,0e61ccb61146bcd6ee306643b1760a9ef4f68a65,api/pkg/db/db.go,modified,33,17,50,dotties
+de448a63ef1f0514cebfad74208f2f5700161757,Matsuuu,2021-03-31 19:57:38.000000,Feat(api): Implement ORM,0,99,77,22,136824dae7a05b488a2151fcf27fca2429fd22f5,api/pkg/db/image.go,added,7,0,7,dotties
+de448a63ef1f0514cebfad74208f2f5700161757,Matsuuu,2021-03-31 19:57:38.000000,Feat(api): Implement ORM,0,99,77,22,50cf7b9d899adede4d00577d38a317abbcb36666,api/pkg/db/repository.go,added,8,0,8,dotties
+319f2746ee7a4f93a1d7baf102844d731313b44c,Sam Lane,2021-03-28 20:35:22.000000,added more logging,0,17,15,2,effe9d4ff4380ec1980d22eb53bdb35060441b0f,api/go.mod,modified,1,0,1,dotties
+319f2746ee7a4f93a1d7baf102844d731313b44c,Sam Lane,2021-03-28 20:35:22.000000,added more logging,0,17,15,2,2e7924c1074aa4d4bc746f9b5fb1a4ea6d857604,api/go.sum,modified,6,0,6,dotties
+319f2746ee7a4f93a1d7baf102844d731313b44c,Sam Lane,2021-03-28 20:35:22.000000,added more logging,0,17,15,2,2559a5d72ca8ac3b22dcd477eab38f1d5f8078da,api/pkg/github/oauth.go,modified,8,2,10,dotties
+d10dc886b65a1906229248ce5a4b0d0a9776c5b3,Sam Lane,2021-03-28 11:29:13.000000,very work in progress autherization middleware,0,38,38,0,c3474a0b9b29e2a2b82d6c8e254eafed8ea390df,api/go.mod,modified,1,0,1,dotties
+d10dc886b65a1906229248ce5a4b0d0a9776c5b3,Sam Lane,2021-03-28 11:29:13.000000,very work in progress autherization middleware,0,38,38,0,d73b235990547f4267fd0903ba0ef74ca7bc5e20,api/go.sum,modified,2,0,2,dotties
+d10dc886b65a1906229248ce5a4b0d0a9776c5b3,Sam Lane,2021-03-28 11:29:13.000000,very work in progress autherization middleware,0,38,38,0,fb0b25b2dfdc5383923f6d9e7e4d0d04de95c759,api/pkg/auth/auth.go,modified,35,0,35,dotties
+87f046f775eef28313f33fd0c1043cd6e0ace7e3,Sam Lane,2021-03-28 09:53:53.000000,HONK jwt to frontend,0,67,66,1,fe86658622ef73b744187ab00f03746769a36228,api/go.mod,modified,1,0,1,dotties
+87f046f775eef28313f33fd0c1043cd6e0ace7e3,Sam Lane,2021-03-28 09:53:53.000000,HONK jwt to frontend,0,67,66,1,53822660008fa248f6e091b655522f7f518e703c,api/go.sum,modified,3,0,3,dotties
+87f046f775eef28313f33fd0c1043cd6e0ace7e3,Sam Lane,2021-03-28 09:53:53.000000,HONK jwt to frontend,0,67,66,1,74c524f3c57d356c242b13ab27e0b8aff431c5a7,api/pkg/auth/auth.go,added,37,0,37,dotties
+87f046f775eef28313f33fd0c1043cd6e0ace7e3,Sam Lane,2021-03-28 09:53:53.000000,HONK jwt to frontend,0,67,66,1,e741dff5ef4f86d7bba2a84784daa169879e4af5,api/pkg/github/oauth.go,modified,25,1,26,dotties
+17fee14d80d1910e97b2e2a7ca3f4b88d062a95a,Sam Lane,2021-03-26 17:33:08.000000,Added go.mod and go fmt,0,21,12,9,4263f8f54e7e4d9ae1d0c79c2c10b5d38e1717d6,api/go.mod,added,3,0,3,dotties
+17fee14d80d1910e97b2e2a7ca3f4b88d062a95a,Sam Lane,2021-03-26 17:33:08.000000,Added go.mod and go fmt,0,21,12,9,887cb1ed9d7dc0fe6a7aa9fc34b99ac72f7dec72,api/main.go,modified,9,9,18,dotties
+1b3e14792530242ff05a5cce86f87197dbf34cff,Sam Lane,2021-04-30 07:48:00.000000,Added auth middleware to repo endpoint,0,2,1,1,3ab0f630b7461f634e036b9122a00ccb29ccb447,api/main.go,modified,1,1,2,dotties
+d5b8500b42f49507e4e1ac1780a8145836059dd7,Sam Lane,2021-04-29 18:23:17.000000,"WIP feature to add repos endpoint
+
+yayayayaya",0,86,85,1,014997ecfd12b705638a3fa27860826db292a2d7,api/main.go,modified,2,0,2,dotties
+d5b8500b42f49507e4e1ac1780a8145836059dd7,Sam Lane,2021-04-29 18:23:17.000000,"WIP feature to add repos endpoint
+
+yayayayaya",0,86,85,1,f44a17958329193e340d6fc872e432799518e8a0,api/pkg/db/repository.go,modified,1,0,1,dotties
+d5b8500b42f49507e4e1ac1780a8145836059dd7,Sam Lane,2021-04-29 18:23:17.000000,"WIP feature to add repos endpoint
+
+yayayayaya",0,86,85,1,23156c76f21e11c35bb6e8aa2391e25f7a2dd61f,api/pkg/github/oauth.go,modified,1,1,2,dotties
+d5b8500b42f49507e4e1ac1780a8145836059dd7,Sam Lane,2021-04-29 18:23:17.000000,"WIP feature to add repos endpoint
+
+yayayayaya",0,86,85,1,761893fbc082029d8553a5561e6a6d02d70d5528,api/pkg/repo/repo.go,added,81,0,81,dotties
+41b75c41997cccc8547b9b84b9561e3291549a7d,Matsuuu,2021-04-05 10:26:14.000000,Implement user update API and view,0,64,44,20,16dcb356795e6976727f6e9e8155fcd0cadeb597,api/main.go,modified,1,1,2,dotties
+41b75c41997cccc8547b9b84b9561e3291549a7d,Matsuuu,2021-04-05 10:26:14.000000,Implement user update API and view,0,64,44,20,ad8fc91e17a3c77016173497629e6e1659fdd983,api/pkg/user/user.go,modified,43,19,62,dotties
+3943fc61334d26520baabd031e8b3b4c07f57882,Matsuuu,2021-04-05 09:23:49.000000,Fix typo on controller,0,6,3,3,5cdfefc02e3bda2ace708738ba561e213d75e9de,api/main.go,modified,1,1,2,dotties
+3943fc61334d26520baabd031e8b3b4c07f57882,Matsuuu,2021-04-05 09:23:49.000000,Fix typo on controller,0,6,3,3,03c14057cdcb981e1d8c324de16c901ae1e86119,api/pkg/auth/auth.go,modified,2,2,4,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,153825b65dbe438a68249e13a14b6666273fa7e2,.gitignore,modified,4,0,4,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,1499fb9b331cde73804978bd21f12a50adedf8d8,README.md,modified,10,0,10,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,9acaca428b05e1aa0b9531c39006f53bbd2c1c98,api/go.mod,modified,5,0,5,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,e6610307c0993c45282103bb16c7fad726407bad,api/go.sum,modified,377,0,377,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,22f7380734b098919e03513d1178fed2824c95cf,api/main.go,modified,2,0,2,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,4281c336fbad39007e2369421cb0bfb877a2922a,api/pkg/db/db.go,added,46,0,46,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,0c8189d5bc4346681b912cc5dd8cb85ba05adca0,db/README.md,added,6,0,6,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,821233e8a769eaf11c4ca632dfbf3871add0f85a,db/docker-compose-db.yml,added,16,0,16,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,dad33a45459058345131a42f8ed5a1e8817c9b88,db/dotties/.gitignore,added,4,0,4,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,b0e9022a48e7be4f202591103422cd11ad05d435,db/dotties/README.md,added,15,0,15,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/analysis/.gitkeep,added,0,0,0,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/data/.gitkeep,added,0,0,0,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,a1b2d72c25697da3ba46630beaaf2c842a095904,db/dotties/dbt_project.yml,added,37,0,37,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/macros/.gitkeep,added,0,0,0,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,fd4fbcc4916d7e173b120cbd9f8f468cf201af13,db/dotties/models/report/schema.yml,added,16,0,16,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,f31a12d94873de0e532ea43f450d605c9cffe35e,db/dotties/models/report/users.sql,added,27,0,27,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/snapshots/.gitkeep,added,0,0,0,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,db/dotties/tests/.gitkeep,added,0,0,0,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,1d03d871fbc37bb620cd16c37da573beb664916f,db/local_db/Dockerfile,added,6,0,6,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,8204cf839cae1445126a89f37e86e998ef7bda9a,db/local_db/migration/Dockerfile,added,16,0,16,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,4f3952ed28cb4337684a6ae5e1679d79260117c2,db/local_db/migration/entrypoint.sh,added,10,0,10,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,86c261b16c8e1084e951a404c2bac581cb35ef5c,db/local_db/migration/scripts/config.py,added,29,0,29,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,3389ee14bf088a8e6f99be4d54536fd8aa6ca2f5,db/local_db/migration/scripts/create_db.sql,added,5,0,5,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,9b0688be4e8808459c707e201347131cf02a7035,db/local_db/migration/scripts/db.py,added,38,0,38,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,a1cb426d30caf2cec231b99114e56b5f40710dd2,db/local_db/migration/scripts/sql/users_t.sql,added,6,0,6,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,73a6f14bc1f1ceb90fa6dc1a594de81c2183fc01,db/local_db/migration/scripts/utils.py,added,32,0,32,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,d78e6782622e6af02f16511fa583d3d2aa958adc,db/scripts/config.py,added,29,0,29,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,9b0688be4e8808459c707e201347131cf02a7035,db/scripts/db.py,added,38,0,38,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,a1cb426d30caf2cec231b99114e56b5f40710dd2,db/scripts/sql/users_t.sql,added,6,0,6,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,73a6f14bc1f1ceb90fa6dc1a594de81c2183fc01,db/scripts/utils.py,added,32,0,32,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,e61182989c5a28471bc40f4f1f3117fb2e93f699,docker-compose.yml,modified,27,0,27,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,99040d0abfb1fe00854ae1a7aae5562461d41bcf,init_dev.sh,added,14,0,14,dotties
+98005e0f1782cfcc01309ed8601a2b7fc1ee0370,GitHub,2021-03-31 16:08:44.000000,"Merge pull request #7 from Shy-Boys-Club/develop-db
+
+Local DB for my boys",0,854,854,0,3557d79c82e71b82fff45a1399f4df09c7e53af0,requirements.txt,added,1,0,1,dotties
+25680ca36c01a2aa6935b9d73965e123c980d078,Matsuuu,2021-03-31 15:00:14.000000,Rename logout function,0,6,3,3,4f84f4b71b1c7f6543a94df8d4d400f77bdb2766,api/main.go,modified,1,1,2,dotties
+25680ca36c01a2aa6935b9d73965e123c980d078,Matsuuu,2021-03-31 15:00:14.000000,Rename logout function,0,6,3,3,5f317ed44d66e447bfe925047849ffcfa9055682,api/pkg/auth/auth.go,modified,2,2,4,dotties
+8b9099c408e85b98498e5e2a720af149c83a6f20,Matsuuu,2021-03-29 09:54:13.000000,Add cors to options too,0,2,1,1,7aabee59221f87431bc22523e8d109c273e3900d,api/main.go,modified,1,1,2,dotties
+1fc470caf68031d5fa2f0827a96f16b15793aa14,Matsuuu,2021-03-26 08:36:10.000000,Feat: add mock API,0,25,25,0,ac4260cc115e0747d2d9744f94125c2067d3ff70,api/main.go,added,25,0,25,dotties
+3a15c8b992ffcd6074df49834bef204310879302,Matsuuu,2021-03-29 06:26:35.000000,Fix(api): Fix api login with github,0,11,6,5,59cbd27fe227af7be3cc9799fd71763e6265a62f,api/pkg/auth/auth.go,modified,0,1,1,dotties
+3a15c8b992ffcd6074df49834bef204310879302,Matsuuu,2021-03-29 06:26:35.000000,Fix(api): Fix api login with github,0,11,6,5,fb8e29c79e891478068a36e1eff266a9693ca67b,api/pkg/github/oauth.go,modified,6,4,10,dotties
+92c8693c4952fd6a08079de23a7ad4971335b02f,Matsuuu,2021-04-05 09:09:36.000000,Fix user querying returning other users,0,8,4,4,29c1cdc6bc6103c657e99c7ea3a4a485729c024a,api/pkg/user/user.go,modified,4,4,8,dotties
+b37e8b7cf8e0e11a1dbe3137e91e770befeabac5,Matsuuu,2021-04-03 22:17:31.000000,Fetch repositories eagerly when fetching users,0,10,6,4,89d338e7e35038de40274a344a2aa769ffbfc23e,api/pkg/user/user.go,modified,6,4,10,dotties
+faaac1d78d15103cd3d1a6f8aa4e5b911a46094d,Matsuuu,2021-04-03 21:38:24.000000,Fix pointer error in authentication,0,5,4,1,c65086df03e19399592e0cb965699ccfcc0edab4,api/pkg/github/oauth.go,modified,4,1,5,dotties
+4ee8cef3ba457fef3e469a6e5951f36e2ebece21,Sam Lane,2021-03-28 20:23:40.000000,there you go,0,1,1,0,1df30d9790b90d966c40cf4c7d8ccc6bee699e1c,api/pkg/github/oauth.go,modified,1,0,1,dotties
+1d83adfb50f6f76625b669b0b86c8125e29b138d,Sam Lane,2021-03-28 20:22:07.000000,there you go,0,2,2,0,ad6438c377ec1b06074f3023442f97593c33c207,api/pkg/github/oauth.go,modified,2,0,2,dotties
+fe83e9a66ab0105d8eee0f17a8cffbfe9bdeb14e,Sam Lane,2021-04-02 12:12:17.000000,Streamline,0,24,8,16,7a4a19700542fd15759430c1afa8ae1add391c97,api/pkg/db/authuser.go,modified,4,12,16,dotties
+fe83e9a66ab0105d8eee0f17a8cffbfe9bdeb14e,Sam Lane,2021-04-02 12:12:17.000000,Streamline,0,24,8,16,f87b1a15ce1c3ea0705dacece29b6bdceed1981c,api/pkg/db/authuser_test.go,modified,4,4,8,dotties
+edf9d386cc49e1fd6f3009b4d030a5527b162605,Sam Lane,2021-04-01 18:47:50.000000,Users have roles now plus tests,0,70,70,0,4ddf21f8a6eddc551b001d89c0c2c935c413a448,api/pkg/db/authuser.go,modified,18,0,18,dotties
+edf9d386cc49e1fd6f3009b4d030a5527b162605,Sam Lane,2021-04-01 18:47:50.000000,Users have roles now plus tests,0,70,70,0,c4aca795cd8e73af29591b4b260b40c7d8117a3d,api/pkg/db/authuser_test.go,added,52,0,52,dotties
+58ee369f2daaf080191fbe858f6b87f7790f9a46,GitHub,2021-03-31 20:23:09.000000,Update repository.go,0,1,1,0,541e7efe250bbca13f0749e88dfcd68bbed0b3ba,api/pkg/db/repository.go,modified,1,0,1,dotties
+6c2106971e11c404aab4d5260d1f15ab88ce907a,Matsuuu,2021-03-31 19:58:52.000000,Comment out testinsert,0,3,2,1,e0d74c1b3170f14f84be6d079510ee45d64bef5f,api/pkg/db/db.go,modified,2,1,3,dotties
+10de636e00c02c9dcdb2a1d5800178f3948a1531,Sam Lane,2021-04-30 16:47:21.000000,wrong db method,0,2,1,1,52ee04dbb38bda31456941a25b9ff6d1604fcd37,api/pkg/db/authuser.go,modified,1,1,2,dotties
+39c6aaf7423cffacc00e73e26ad626914bb13241,Sam Lane,2021-04-30 16:43:21.000000,Yeeeeeeeeeeeeeeeeeeeeeeeeeeeesh,0,65,41,24,d67c83888ece4c7c09419530e5fbcf1f96d81957,api/pkg/db/authuser.go,modified,33,0,33,dotties
+39c6aaf7423cffacc00e73e26ad626914bb13241,Sam Lane,2021-04-30 16:43:21.000000,Yeeeeeeeeeeeeeeeeeeeeeeeeeeeesh,0,65,41,24,af2f63c4b47342582a0730f61de5e175c1fd5076,api/pkg/db/repository.go,modified,0,1,1,dotties
+39c6aaf7423cffacc00e73e26ad626914bb13241,Sam Lane,2021-04-30 16:43:21.000000,Yeeeeeeeeeeeeeeeeeeeeeeeeeeeesh,0,65,41,24,5fcf4283f9b1688cbf707cbb2a5846eff55eb196,api/pkg/repo/repo.go,modified,8,23,31,dotties
+8fd60714f1694a28bf6a1da854e937e0bd66839c,Sam Lane,2021-04-01 18:28:11.000000,Update primary key to match casing,0,2,1,1,9d367b7c00b1c1f2b848e3c3c8a408f0a377d2ae,api/pkg/db/authuser.go,modified,1,1,2,dotties
+b21470a73eff3d54ab0e3d3bef253755868b7cea,Sam Lane,2021-04-01 18:26:04.000000,added json fields,0,10,5,5,63dd282d8599a2723e7965511f210f760e3f4dd4,api/pkg/db/authuser.go,modified,5,5,10,dotties
+4120909d5dec34bfb829e23b5ae34c0e69e14169,Sam Lane,2021-04-01 18:21:15.000000,User struct updated to have last active field,0,19,14,5,8afee3e32cee3392284c01afba64eff05448dd6d,api/pkg/db/authuser.go,modified,14,5,19,dotties
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,0c945f88c900fc0f1457a292a9960a512c0ea20d,facebook_cover_photo_1.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,e66372172d98d729bc737506dd61693b24731b69,facebook_cover_photo_2.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,3b5ec7a3b4139009bed593650d25968d4974f269,facebook_profile_image.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,28dbe3da5218a3caa473ee303526f3fbd5f5cdd1,favicon.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,7ee1c993d589f9bdf5c1a8593bc49b3dac9a0925,instagram_profile_image.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,ac6624d5de62b3602343c0ef3322ddad438cf2e3,linkedin_banner_image_1.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,6e6c672c48810947afdb512ad3bbc4820dc55590,linkedin_banner_image_2.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,7ee1c993d589f9bdf5c1a8593bc49b3dac9a0925,linkedin_profile_image.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,3b5ec7a3b4139009bed593650d25968d4974f269,logo.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,2d76d6d2c7eba2349216210c0171db977e39ce43,logo_transparent.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,78305eeaaa6ee7c9e9138ebcb03860d475d5bc6f,pinterest_board_photo.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,68f070be51c1169d069985163d4c292689cb7a90,pinterest_profile_image.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,eaa817ab1538aa18da0e25b5dbe318158e423248,twitter_header_photo_1.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,66e07109f2de1822e9e1cfb4ccf1405c96372470,twitter_header_photo_2.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,78305eeaaa6ee7c9e9138ebcb03860d475d5bc6f,twitter_profile_image.png,added,0,0,0,assets
+245dc866b38fb94037d29ddd272a2a10ff0348b6,Matsuuu,2021-03-27 09:06:36.000000,Initial logos,0,0,0,0,78305eeaaa6ee7c9e9138ebcb03860d475d5bc6f,youtube_profile_image.png,added,0,0,0,assets

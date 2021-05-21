@@ -6,8 +6,6 @@ from functools import partial
 import config
 from enum import Enum
 import shutil
-from requests_oauthlib import OAuth2Session
-from requests_oauthlib import OAuth1
 import re
 import queue
 from collections import namedtuple
@@ -23,7 +21,6 @@ def _set_config():
     ORGANIZATION = 'Shy-Boys-Club'
 
     global reg_get_auth
-    #reg_get_auth = partial(requests.get, auth=(conf.git_config["user"], conf.git_config["api_token"]))
 
     reg_get_auth = partial(requests.get, auth=('huhta.lauri@gmail.com', ''))
 
@@ -59,19 +56,26 @@ def _get_api_results(url):
 def fetch_events(save_folder: str):
     os.makedirs(save_folder, exist_ok=False)
 
-    if endpoint:
-        data_url = ORG_DATA[f'{endpoint}_url']
-
-    if url:
-        data_url = url
-
-    resp = reg_get_auth(data_url)
+    events_url = ORG_DATA["events_url"]
+    resp = reg_get_auth(events_url)
     data = json.loads(resp.text)
 
-    with open(f'{save_folder}/{ORGANIZATION}_{endpoint}.json', 'w') as data_file:
-        json.dump(data, data_file)
+    with open(f'{save_folder}/{ORGANIZATION}_events.json', 'w') as events_file:
+        json.dump(data, events_file)
 
-    return data
+
+
+def fetch_repositories(save_folder: str):
+    os.makedirs(save_folder, exist_ok=False)
+
+
+    repository_url = ORG_DATA["repos_url"]
+    resp = reg_get_auth(repository_url)
+    data = json.loads(resp.text)
+
+    with open(f'{save_folder}/{ORGANIZATION}_repositories.json', 'w') as repository_file:
+        json.dump(data, repository_file)
+
 
 
 def fetch_org(save_folder: str):
@@ -140,9 +144,11 @@ def _contents_queue(code_files, save_folder, repo):
 def _file_processor(path, type, url, save_folder, repo):
 
     resp = _get_api_results(url)
+    data = json.loads(resp)
+    data["repository"] = repo
 
     with open(os.path.join(save_folder, repo, path + '.json'), 'w') as output_file:
-        output_file.write(resp)
+        json.dump(data, output_file)
 
     _get_file_commits(path, type, url, save_folder, repo)
 
@@ -177,10 +183,12 @@ def _get_file_commits(path, type, url, save_folder, repo):
 def _get_commit_data(url, save_folder, repo, path):
 
     resp = _get_api_results(url)
+    data = json.loads(resp)
+    data["repository"] = repo
 
 
     with open(os.path.join(save_folder, repo, 'commits', path + '.json'), 'a') as output_file:
-        output_file.write(resp)
+        json.dump(data, output_file)
         output_file.write('\n')
 
 
@@ -210,16 +218,14 @@ if __name__ == '__main__':
     shutil.rmtree(data_folder_prefix, ignore_errors=True)
     os.makedirs(data_folder_prefix, exist_ok=False)
     # Data folders
-    global data_folders
-    data_folders = {}
-    for endpoint in endpoints:
-        data_folders[endpoint] = os.path.join(data_folder_prefix, f'{endpoint}')
+    org_folder_prefix = os.path.join(data_folder_prefix, 'organization')
+    repository_folder_prefix = os.path.join(data_folder_prefix, 'repositories')
+    events_folder_prefix = os.path.join(data_folder_prefix, 'events')
 
 
     _set_config()
 
 
-    org_folder_prefix = os.path.join(data_folder_prefix, 'organization')
     fetch_org(save_folder=org_folder_prefix)
     # Reference org file
     org_file = os.path.join(org_folder_prefix, f'{ORGANIZATION}_org.json')
@@ -234,5 +240,3 @@ if __name__ == '__main__':
     # repositories drill down
     q = queue.Queue()
     fetch_contents(repo_folder=repository_folder_prefix, save_folder=contents_folder_prefix)
-
-#TODO: Get contents out of commits (url)

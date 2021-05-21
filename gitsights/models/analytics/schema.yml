@@ -17,3 +17,19 @@ models:
             tests:
                 - not_null
 
+    - name: commits
+      description: "Commit data in un-nested form"
+      columns:
+          - name: sha
+            description: "The primary key for this table"
+            tests:
+                - not_null
+
+    - name: commits_total
+      description: "Commit data without individual files"
+      columns:
+          - name: sha
+            description: "The primary key for this table"
+            tests:
+                - not_null
+

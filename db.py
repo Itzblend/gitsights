@@ -34,6 +34,7 @@ def _set_config():
 def init_db():
     with db_cursor(CONNECTION_STRING) as cur:
         cur.execute(f"""
+                    DROP SCHEMA {SQL_CONFIG['SCHEMA_TABLES']} CASCADE;
                     CREATE SCHEMA IF NOT EXISTS {SQL_CONFIG['SCHEMA_TABLES']};
                     CREATE SCHEMA IF NOT EXISTS {SQL_CONFIG['SCHEMA']};
                 """)
@@ -83,7 +84,7 @@ def upload_git_dirs(data_dir: str):
 
     for file in data_files:
         identifier = file.split('/')[1]
-        print(identifier)
+        print(file)
         if identifier == 'organization':
             load_script = 'sql/load_organizations.sql'
             _load_org_data(file, load_script)
@@ -96,12 +97,19 @@ def upload_git_dirs(data_dir: str):
         if identifier == 'issues':
             load_script = 'sql/load_issues.sql'
             _load_git_data(file, load_script)
+        if identifier == 'contents' and 'commits' not in file.split('/'):
+            load_script = 'sql/load_contents.sql'
+            _load_org_data(file, load_script)
+        if identifier == 'contents' and 'commits' in file.split('/'):
+            load_script = 'sql/load_commits.sql'
+            _load_org_data(file, load_script)
+
         #else:
         #    print("invalid data")
         #    continue
 
 
 if __name__ == '__main__':
-    main()
-    #_set_config()
-    #upload_git_dirs()
+    #main()
+    _set_config()
+    upload_git_dirs()
