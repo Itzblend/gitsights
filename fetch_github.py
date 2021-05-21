@@ -31,8 +31,6 @@ def _set_config():
 def _get_org_url():
     return requote_uri(f'{BASEURL}/orgs/{ORGANIZATION}')
 
-def _get_org_repos_url():
-    return requote_uri(f'{BASEURL}/orgs/{ORGANIZATION}/repos')
 
 
 def _get_org_events_url():
@@ -61,26 +59,19 @@ def _get_api_results(url):
 def fetch_events(save_folder: str):
     os.makedirs(save_folder, exist_ok=False)
 
-    events_url = ORG_DATA["events_url"]
-    resp = reg_get_auth(events_url)
+    if endpoint:
+        data_url = ORG_DATA[f'{endpoint}_url']
+
+    if url:
+        data_url = url
+
+    resp = reg_get_auth(data_url)
     data = json.loads(resp.text)
 
-    with open(f'{save_folder}/{ORGANIZATION}_events.json', 'w') as events_file:
-        json.dump(data, events_file)
+    with open(f'{save_folder}/{ORGANIZATION}_{endpoint}.json', 'w') as data_file:
+        json.dump(data, data_file)
 
-
-
-def fetch_repositories(save_folder: str):
-    os.makedirs(save_folder, exist_ok=False)
-
-
-    repository_url = ORG_DATA["repos_url"]
-    resp = reg_get_auth(repository_url)
-    data = json.loads(resp.text)
-
-    with open(f'{save_folder}/{ORGANIZATION}_repositories.json', 'w') as repository_file:
-        json.dump(data, repository_file)
-
+    return data
 
 
 def fetch_org(save_folder: str):
@@ -105,7 +96,7 @@ def fetch_contents(repo_folder: str, save_folder: str):
     for dirpath, _, files in os.walk(repo_folder):
         for filename in files:
             repo_files.append(os.path.join(dirpath, filename))
-    
+
     for file in repo_files:
         with open(file, 'r') as filer:
             repo_data = json.load(filer)
@@ -211,19 +202,24 @@ def _get_commit_data(url, save_folder, repo, path):
 
 
 if __name__ == '__main__':
+
+    endpoints = ["repos", "events", "issues", "hooks", "members"]
+
     data_folder_prefix = 'data'
     data_folder_prefix = os.path.join(data_folder_prefix)
     shutil.rmtree(data_folder_prefix, ignore_errors=True)
     os.makedirs(data_folder_prefix, exist_ok=False)
     # Data folders
-    org_folder_prefix = os.path.join(data_folder_prefix, 'organization')
-    repository_folder_prefix = os.path.join(data_folder_prefix, 'repositories')
-    events_folder_prefix = os.path.join(data_folder_prefix, 'events')
+    global data_folders
+    data_folders = {}
+    for endpoint in endpoints:
+        data_folders[endpoint] = os.path.join(data_folder_prefix, f'{endpoint}')
 
 
     _set_config()
 
 
+    org_folder_prefix = os.path.join(data_folder_prefix, 'organization')
     fetch_org(save_folder=org_folder_prefix)
     # Reference org file
     org_file = os.path.join(org_folder_prefix, f'{ORGANIZATION}_org.json')

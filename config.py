@@ -1,22 +1,30 @@
 import json
 from collections import namedtuple
 import os
+import requests
+from requests.auth import HTTPBasicAuth
 
 
 def get_config():
 
+    github_vault_resp = requests.get(f'{os.environ.get("VAULT_ADDR")}/v1/kv/github', headers={'X-Vault-Token': os.environ.get("VAULT_TOKEN")})
+    github_vault_config = json.loads(github_vault_resp.text)
+
+    postgres_vault_resp = requests.get(f'{os.environ.get("VAULT_ADDR")}/v1/kv/postgres', headers={'X-Vault-Token': os.environ.get("VAULT_TOKEN")})
+    postgres_vault_config = json.loads(postgres_vault_resp.text)
+
     git_config = {
         "baseurl": "https://api.github.com",
         "user": "huhta.lauri@gmail.com",
-        "api_token": os.popen("vault kv get -field=api_token kv/github"),
+        "api_token": github_vault_config["data"]["api_token"]
     }
 
     db_settings = {
-        'dbhost': os.popen("vault kv get -field=dbhost kv/postgres").read(),
+        'dbhost': postgres_vault_config["data"]["dbhost"],
         'dbname': 'gitsights',
-        'dbuser': os.popen("vault kv get -field=dbuser kv/postgres").read(),
-        'password': os.popen("vault kv get -field=password kv/postgres").read(),
-        'port': os.popen("vault kv get -field=port kv/postgres").read()
+        'dbuser': postgres_vault_config["data"]["dbuser"],
+        'password': postgres_vault_config["data"]["password"],
+        'port': postgres_vault_config["data"]["port"]
     }
 
     schema = 'git'
@@ -33,6 +41,8 @@ def get_config():
         'EVENTS_V': f'{schema}.events',
         'COMMITS_T': f'{schema_t}.commits_t',
         'CONTENTS_T': f'{schema_t}.contents_t'
+        'ISSUES_T': f'{schema_t}.issues_t',
+        'ISSUES_V': f'{schema}.issues'
     }
 
 
