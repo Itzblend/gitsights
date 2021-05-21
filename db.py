@@ -40,6 +40,7 @@ def init_db():
         cur.execute(format_query('sql/organizations_t.sql', SQL_CONFIG))
         cur.execute(format_query('sql/repositories_t.sql', SQL_CONFIG))
         cur.execute(format_query('sql/events_t.sql', SQL_CONFIG))
+        cur.execute(format_query('sql/issues_t.sql', SQL_CONFIG))
 
 
 def _load_git_data(file: str, load_script: str):
@@ -89,6 +90,9 @@ def upload_git_dirs(data_dir: str):
             _load_git_data(file, load_script)
         if identifier == 'events':
             load_script = 'sql/load_events.sql'
+            _load_git_data(file, load_script)
+        if identifier == 'issues':
+            load_script = 'sql/load_issues.sql'
             _load_git_data(file, load_script)
         #else:
         #    print("invalid data")

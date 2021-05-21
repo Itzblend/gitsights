@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS {ISSUES_T} (
+    id      BIGINT,
+    node_id VARCHAR,
+    number INTEGER,
+    title   VARCHAR,
+    user_name   VARCHAR,
+    user_id     INTEGER,
+    user_type   VARCHAR,
+    state   VARCHAR,
+    locked      VARCHAR,
+    assignees JSON,
+    milestone   VARCHAR,
+    comments    INTEGER,
+    created_at  TIMESTAMP,
+    updated_at  TIMESTAMP,
+    closed_at   TIMESTAMP,
+    repository_name VARCHAR,
+    repository_id   BIGINT,
+    body    VARCHAR,
+    PRIMARY KEY(id, updated_at)
+)
