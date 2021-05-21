@@ -4,7 +4,13 @@ import requests
 from requests.utils import requote_uri
 from functools import partial
 import config
+from enum import Enum
 import shutil
+from requests_oauthlib import OAuth2Session
+from requests_oauthlib import OAuth1
+import re
+import queue
+from collections import namedtuple
 
 
 def _set_config():
@@ -17,18 +23,40 @@ def _set_config():
     ORGANIZATION = 'Shy-Boys-Club'
 
     global reg_get_auth
-    reg_get_auth = partial(requests.get, auth=(conf.git_config["user"], conf.git_config["api_token"]))
+    #reg_get_auth = partial(requests.get, auth=(conf.git_config["user"], conf.git_config["api_token"]))
+
+    reg_get_auth = partial(requests.get, auth=('huhta.lauri@gmail.com', ''))
 
 
 def _get_org_url():
     return requote_uri(f'{BASEURL}/orgs/{ORGANIZATION}')
 
 
-def fetch_data(endpoint: str, save_folder: str, url = ''):
-    """
-    Prosessor to get data from all the github endpoints listed.
-    HOX! When calling this function, do not use both endpoint and url arguements
-    """
+
+def _get_org_events_url():
+    return requote_uri(f'{BASEURL}/orgs/{ORGANIZATION}/events')
+
+def _get_org_members_url():
+    return requote_uri(f'{BASEURL}/orgs/{ORGANIZATION}/members')
+
+def _get_files_url(repo: str):
+    return requote_uri(f'{BASEURL}/repos/{ORGANIZATION}/{repo}/contents')
+
+def _get_contents_url(repo: str, code_file: str):
+    return requote_uri(f'{BASEURL}/repos/{ORGANIZATION}/{repo}/contents/{code_file}')
+
+def _get_file_commits_url(repo: str, code_file: str):
+    return requote_uri(f'{BASEURL}/repos/{ORGANIZATION}/{repo}/commits?path={code_file}')
+
+
+def _get_api_results(url):
+
+    resp = reg_get_auth(url)
+
+    return resp.text
+
+
+def fetch_events(save_folder: str):
     os.makedirs(save_folder, exist_ok=False)
 
     if endpoint:
@@ -55,6 +83,121 @@ def fetch_org(save_folder: str):
 
     with open(f'{save_folder}/{ORGANIZATION}_org.json', 'w') as org_file:
         json.dump(data, org_file)
+
+
+# ------------------------------------------
+
+def fetch_contents(repo_folder: str, save_folder: str):
+    """ Get metainfo from repository.json file and fetch contents of a repository
+    """
+    os.makedirs(save_folder, exist_ok=False)
+    # Collect repo files
+    repo_files = []
+    for dirpath, _, files in os.walk(repo_folder):
+        for filename in files:
+            repo_files.append(os.path.join(dirpath, filename))
+
+    for file in repo_files:
+        with open(file, 'r') as filer:
+            repo_data = json.load(filer)
+
+        repo_names = [repo["name"] for repo in repo_data]
+
+        # Collect files and filenames
+        for repo in repo_names:
+            print(f"Fetching contents for repository: {repo}")
+            os.makedirs(f'{save_folder}/{repo}', exist_ok=False)
+            os.makedirs(f'{save_folder}/{repo}/commits', exist_ok=False)
+
+            url = _get_files_url(repo=repo)
+            resp = reg_get_auth(url)
+            data = json.loads(resp.text)
+
+            code_files = [(code_file["path"], code_file["type"], code_file["url"]) for code_file in data]
+
+            _contents_queue(code_files=code_files,save_folder=save_folder, repo=repo)
+
+
+
+def _contents_queue(code_files, save_folder, repo):
+
+    [q.put(file) for file in code_files]
+
+    while not q.empty():
+        item = q.get()
+
+        path = item[0]
+        type = item[1]
+        url = item[2]
+
+        if type == 'file':
+            _file_processor(path, type, url, save_folder, repo)
+        else:
+            _folder_processor(path, type, url, save_folder, repo)
+
+
+
+def _file_processor(path, type, url, save_folder, repo):
+
+    resp = _get_api_results(url)
+
+    with open(os.path.join(save_folder, repo, path + '.json'), 'w') as output_file:
+        output_file.write(resp)
+
+    _get_file_commits(path, type, url, save_folder, repo)
+
+def _folder_processor(path, type, url, save_folder, repo):
+
+    resp = _get_api_results(url)
+    data = json.loads(resp)
+    code_files = []
+    for code_file in data:
+        temp_path = code_file["path"].split('/')
+        temp_path.pop()
+        temp_path = '/'.join(temp_path)
+        os.makedirs(os.path.join(save_folder, repo, temp_path), exist_ok=True)
+        os.makedirs(os.path.join(save_folder, repo, 'commits', temp_path), exist_ok=True)
+
+        code_files.append((code_file["path"], code_file["type"], code_file["url"]))
+
+
+    [q.put(file) for file in code_files]
+
+
+def _get_file_commits(path, type, url, save_folder, repo):
+
+    url = _get_file_commits_url(repo, path)
+    resp = _get_api_results(url)
+    data = json.loads(resp)
+    for commit in data:
+        _get_commit_data(url=commit["url"], save_folder=save_folder, repo=repo, path=path)
+
+
+
+def _get_commit_data(url, save_folder, repo, path):
+
+    resp = _get_api_results(url)
+
+
+    with open(os.path.join(save_folder, repo, 'commits', path + '.json'), 'a') as output_file:
+        output_file.write(resp)
+        output_file.write('\n')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -84,17 +227,12 @@ if __name__ == '__main__':
     with open(org_file, 'r') as temp_org_file:
         ORG_DATA = json.loads(temp_org_file.read())
 
-    for endpoint in data_folders:
-        data = fetch_data(endpoint=endpoint, save_folder=data_folders[endpoint])
-        if endpoint == 'repos' and data:
-            repo_endpoints_list = ["contents", "git_tags"]
-            #repos_sub_endpoints = data
-            for repo_endpoint in repo_endpoints_list:
-                print(data[f'{repo_endpoint}_url'])
-                fetch_data(url=data[repo_endpoint], save_folder=f'{data_folder_prefix}/{repo_endpoint}')
+    fetch_repositories(save_folder=repository_folder_prefix)
+    fetch_events(save_folder=events_folder_prefix)
 
+    contents_folder_prefix = os.path.join(data_folder_prefix, 'contents')
+    # repositories drill down
+    q = queue.Queue()
+    fetch_contents(repo_folder=repository_folder_prefix, save_folder=contents_folder_prefix)
 
-
-    #fetch_repositories(save_folder=repository_folder_prefix)
-    #fetch_events(save_folder=events_folder_prefix)
-    #fetch_issues(save_folder=issues_folder_prefix)
+#TODO: Get contents out of commits (url)

@@ -39,6 +39,8 @@ def init_db():
                 """)
         cur.execute(format_query('sql/organizations_t.sql', SQL_CONFIG))
         cur.execute(format_query('sql/repositories_t.sql', SQL_CONFIG))
+        cur.execute(format_query('sql/commits_t.sql', SQL_CONFIG))
+        cur.execute(format_query('sql/contents_t.sql', SQL_CONFIG))
         cur.execute(format_query('sql/events_t.sql', SQL_CONFIG))
         cur.execute(format_query('sql/issues_t.sql', SQL_CONFIG))
 
@@ -97,8 +99,6 @@ def upload_git_dirs(data_dir: str):
         #else:
         #    print("invalid data")
         #    continue
-
-        
 
 
 if __name__ == '__main__':
