@@ -9,6 +9,7 @@ import shutil
 import re
 import queue
 from collections import namedtuple
+import itertools
 
 
 def _set_config():
@@ -43,14 +44,18 @@ def _get_contents_url(repo: str, code_file: str):
     return requote_uri(f'{BASEURL}/repos/{ORGANIZATION}/{repo}/contents/{code_file}')
 
 def _get_file_commits_url(repo: str, code_file: str):
-    return requote_uri(f'{BASEURL}/repos/{ORGANIZATION}/{repo}/commits?path={code_file}')
+    return requote_uri(f'{BASEURL}/repos/{ORGANIZATION}/{repo}/commits?path={code_file}&ref=main')
+
+def _get_commits_branch_url(repo: str, branch: str):
+    return requote_uri(f'{BASEURL}/repos/{ORGANIZATION}/{repo}/commits')#?sha={branch}')
+
 
 
 def _get_api_results(url):
 
     resp = reg_get_auth(url)
 
-    return resp.text
+    return resp.text, resp.headers, resp.links
 
 
 def fetch_events(save_folder: str):
@@ -121,6 +126,8 @@ def fetch_contents(repo_folder: str, save_folder: str):
 
             _contents_queue(code_files=code_files,save_folder=save_folder, repo=repo)
 
+            get_commits_branch(save_folder=save_folder, repo=repo)
+
 
 
 def _contents_queue(code_files, save_folder, repo):
@@ -143,7 +150,7 @@ def _contents_queue(code_files, save_folder, repo):
 
 def _file_processor(path, type, url, save_folder, repo):
 
-    resp = _get_api_results(url)
+    resp, headers, links = _get_api_results(url)
     data = json.loads(resp)
     data["repository"] = repo
 
@@ -154,7 +161,7 @@ def _file_processor(path, type, url, save_folder, repo):
 
 def _folder_processor(path, type, url, save_folder, repo):
 
-    resp = _get_api_results(url)
+    resp, headers, links = _get_api_results(url)
     data = json.loads(resp)
     code_files = []
     for code_file in data:
@@ -173,7 +180,7 @@ def _folder_processor(path, type, url, save_folder, repo):
 def _get_file_commits(path, type, url, save_folder, repo):
 
     url = _get_file_commits_url(repo, path)
-    resp = _get_api_results(url)
+    resp, headers, links = _get_api_results(url)
     data = json.loads(resp)
     for commit in data:
         _get_commit_data(url=commit["url"], save_folder=save_folder, repo=repo, path=path)
@@ -182,7 +189,7 @@ def _get_file_commits(path, type, url, save_folder, repo):
 
 def _get_commit_data(url, save_folder, repo, path):
 
-    resp = _get_api_results(url)
+    resp, headers, links = _get_api_results(url)
     data = json.loads(resp)
     data["repository"] = repo
 
@@ -190,6 +197,49 @@ def _get_commit_data(url, save_folder, repo, path):
     with open(os.path.join(save_folder, repo, 'commits', path + '.json'), 'a') as output_file:
         json.dump(data, output_file)
         output_file.write('\n')
+
+
+
+def get_commits_branch(save_folder, repo):
+
+    
+
+    branch = 'main'
+    #repo = 'dotties'
+
+    os.makedirs(os.path.join(save_folder, repo, 'commits_branch', branch), exist_ok=True)
+
+    url = _get_commits_branch_url(repo=repo, branch=branch)
+
+    for i in itertools.count():
+        resp, headers, links = _get_api_results(url)
+        data = json.loads(resp)
+
+        for entry in data:
+            entry["repository"] = repo
+
+        print(links)
+
+
+        with open(os.path.join(save_folder, repo, 'commits_branch', branch, f'data_{i}.json'), 'w') as output_file:
+            json.dump(data, output_file)
+            output_file.write('\n')
+
+
+        if links["next"]["url"] is None:
+            with open(os.path.join(save_folder, repo, 'commits_branch', branch, f'data_{i}.json'), 'w') as output_file:
+                json.dump(data, output_file)
+                output_file.write('\n')
+            break
+    
+
+
+    
+
+
+
+        
+
 
 
 

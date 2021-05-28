@@ -110,6 +110,6 @@ def upload_git_dirs(data_dir: str):
 
 
 if __name__ == '__main__':
-    #main()
-    _set_config()
-    upload_git_dirs()
+    main()
+    #_set_config()
+    #upload_git_dirs()
