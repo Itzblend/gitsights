@@ -97,19 +97,23 @@ def upload_git_dirs(data_dir: str):
         if identifier == 'issues':
             load_script = 'sql/load_issues.sql'
             _load_git_data(file, load_script)
-        if identifier == 'contents' and 'commits' not in file.split('/'):
-            load_script = 'sql/load_contents.sql'
-            _load_org_data(file, load_script)
-        if identifier == 'contents' and 'commits' in file.split('/'):
+#        if identifier == 'contents' and 'commits' not in file.split('/'):
+#            load_script = 'sql/load_contents.sql'
+#            _load_org_data(file, load_script)
+#        if identifier == 'contents' and 'commits' in file.split('/'):
+#            load_script = 'sql/load_commits.sql'
+#            _load_org_data(file, load_script)
+        if identifier == 'contents' and 'commits_branch' in file.split('/'):
             load_script = 'sql/load_commits.sql'
             _load_org_data(file, load_script)
 
-        #else:
-        #    print("invalid data")
-        #    continue
+        else:
+            print("invalid data")
+            continue
 
 
 if __name__ == '__main__':
     main()
     #_set_config()
     #upload_git_dirs()
+    #TODO: Maybe remove the first load commit and find better if statement for load contents

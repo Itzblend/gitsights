@@ -212,24 +212,24 @@ def get_commits_branch(save_folder, repo):
     url = _get_commits_branch_url(repo=repo, branch=branch)
 
     for i in itertools.count():
-        resp, headers, links = _get_api_results(url)
-        data = json.loads(resp)
 
-        for entry in data:
-            entry["repository"] = repo
+        try:
+            resp, headers, links = _get_api_results(url)
+            data = json.loads(resp)
 
-        print(links)
-
-
-        with open(os.path.join(save_folder, repo, 'commits_branch', branch, f'data_{i}.json'), 'w') as output_file:
-            json.dump(data, output_file)
-            output_file.write('\n')
+            for entry in data:
+                entry["repository"] = repo
 
 
-        if links["next"]["url"] is None:
-            with open(os.path.join(save_folder, repo, 'commits_branch', branch, f'data_{i}.json'), 'w') as output_file:
-                json.dump(data, output_file)
-                output_file.write('\n')
+            with open(os.path.join(save_folder, repo, 'commits_branch', branch, f'data_{i}.json'), 'a') as output_file:
+                #json.dump(data, output_file)
+                for row in data:
+                    json.dump(row, output_file)
+                    output_file.write('\n')
+
+            url = links["next"]["url"]
+
+        except KeyError:
             break
     
 
@@ -290,3 +290,5 @@ if __name__ == '__main__':
     # repositories drill down
     q = queue.Queue()
     fetch_contents(repo_folder=repository_folder_prefix, save_folder=contents_folder_prefix)
+
+
